@@ -1,0 +1,120 @@
+PSEUDO_CODE_function_process_one_sequence.txt
+# Pseudo-code for interpretation/cleaning of sequences (v_dnasequence)
+
+# The function takes a sequence (raw) and outputs a number of flags and metrics, 
+# as well as the cleaned sequence (clean). 
+# The cleaning process is designed to be as transparent and interpretable as possible, 
+# with each step clearly defined and justified. 
+# The function also relies on a configuration object (config) that specifies parameters for the cleaning process, 
+# allowing for flexibility and adaptability to different use cases.
+
+# The output object includes:
+# - raw_sequence: the original input sequence (as-is) # NB: for reference and debugging, likely not necessary in the final output dataset
+# - clean_sequence: the final cleaned sequence after all processing steps
+# - clean_length: (calculated metric) length of the cleaned sequence in bytes 
+# - non_iupac_fraction: (calculated metric) fraction of characters in the cleaned sequence that are not valid IUPAC DNA characters
+# - non_acgtn_fraction: (calculated metric) fraction of characters in the cleaned sequence that are not A/C/G/T/N
+# - n_fraction: (calculated metric) fraction of characters in the cleaned sequence that are 'N'
+# - n_nruns_capped: (calculated metric) number of N-runs that were capped
+# - gc_content: (calculated metric)  GC content of the cleaned sequence (based on A/C/G/T only)
+# - unmerged_reads_detected: boolean flag indicating if unmerged reads were detected based on the presence of a specific marker
+# - ends_trimmed: boolean flag indicating if the sequence was trimmed at the ends based on anchor detection
+# - gap_and_whitespace_removed: boolean flag indicating if any gaps or whitespace were removed during cleaning
+# - md5: MD5 hash of the raw sequence after stripping to IUPAC RNA characters (mimicking current GBIF behavior for development purpose) # NB: this is not the MD5 of the original raw sequence, but rather the MD5 of the raw sequence after a specific transformation (strip to IUPAC RNA and uppercase) . Do not include in final function.
+# - md5_clean: MD5 hash of the final cleaned sequence # NB: this is the MD5 of the final cleaned sequence. This is the value that is meant to be used for indexing sequences in the GBIF occurrence index. 
+
+# function process_one_sequence(seq, config):
+    # config: anchor_chars, anchor_minrun, gap_regex, marker_regex,
+    #         iupac_dna, iupac_rna, nrun_cap_from, nrun_cap_to
+
+# Used config: "sequence_cleaning_config.json" 
+# {
+#   "anchor_chars"="ACGTU",
+#   "anchor_minrun": 8,
+#   "anchor_strict": "ACGTU",
+#   "gap_regex": "[-\\.]",
+#   "marker_regex": "UNMERGED",
+#   "iupac_rna": "ACGTURYSWKMBDHVN",
+#   "iupac_dna": "ACGTRYSWKMBDHVN",
+#   "nrun_cap_from": 6,
+#   "nrun_cap_to": 5
+# }
+
+    raw = seq or ""
+    # Stage A: normalize whitespace + uppercase
+    # example: "acgtac gta  cgt" -> "ACGTACGTACGT"
+    raw_has_ws = contains_regex(raw, "\s")
+    s0 = replace_regex(raw, "\s+", "")
+    s1 = to_uppercase(s0)
+
+    # Stage B: detect unmerged reads
+    example: "ACGTUNMERGEDACGT" -> unmerged_reads_detected = TRUE
+    unmerged_reads_detected = contains_regex(s1, config.marker_regex)
+
+    # Stage C: remove gaps
+    # example: "ACGT-ACGT..ACGT" -> "ACGTACGTACGT"
+    has_gaps = contains_regex(s1, config.gap_regex)
+    s2 = replace_regex(s1, config.gap_regex, "")
+    gap_and_whitespace_removed = raw_has_ws OR has_gaps
+
+    # Stage D: trim to anchors (front & back)
+    # example: with anchor_chars="ACGTU" and anchor_minrun=8:
+    # "THISISMYGBIFSEQUENCEACGTACGTACGTNNNNNENDOFSEQUENCE" -> "ACGTACGTACGT"
+    t_first = trim_to_first_anchor_or_wipe(s2, config.anchor_chars, config.anchor_minrun)
+    s3 = t_first.s
+    t_last  = trim_to_last_anchor(s3, config.anchor_chars, config.anchor_minrun)
+    s4 = t_last.s
+    ends_trimmed = t_first.did OR t_last.did
+
+    # Stage E: U -> T (RNA->DNA)
+    # example: "ACGTUACGTU" -> "ACGTTACGTT"
+    s5 = replace_all(s4, "U", "T")
+
+    # Stage F: cap N-runs (apply N-run cap to s5 -> s6)
+    # example: with nrun_cap_from=6 and nrun_cap_to=5:
+    # "ACGTACGTNNNNNNNNNNNNNNACGTACGTNNNNNNNNNACGTACGT" -> "ACGTACGTNNNNNACGTACGTNNNNNACGTACGT"
+    cap_pattern = "N{" + nrun_cap_from + ",}"
+    n_nruns_capped = count_regex(s5, cap_pattern)
+    cap_to_str = repeat_char("N", nrun_cap_to)
+    s6 = replace_regex(s5, cap_pattern, cap_to_str)
+
+    # Additional metrics (on s6)
+    clean_length = length_in_bytes(s6)
+    n_count = count_fixed(s6, "N")
+    n_fraction = (clean_length > 0) ? n_count / clean_length : NULL
+
+    # IMPORTANT: compute ambiguous/non-IUPAC counts AFTER capping (on s6)
+    non_acgtn_count = count_regex(s6, "[^ACGTN]")
+    non_iupac_count = count_regex(s6, "[^" + config.iupac_dna + "]")
+    non_acgtn_fraction = (clean_length > 0) ? non_acgtn_count / clean_length : NULL
+    non_iupac_fraction = (clean_length > 0) ? non_iupac_count / clean_length : NULL
+
+    # GC content (A/C/G/T only in denominator)
+    gc = count_regex(s6, "[GC]")
+    acgt = count_regex(s6, "[ACGT]")
+    gc_content = (acgt > 0) ? gc / acgt : NULL
+
+    # MD5s
+    # md5_raw is meant to mimick the current GBIF behavior: strip to IUPAC RNA first, then compute MD5
+    # md5_clean is computed on the final cleaned sequence
+    md5_raw = md5( uppercase( remove_regex(raw, "[^" + config.iupac_rna + "]+") ) )
+    md5_clean = md5(s6)
+
+    # Output object
+    result = {
+      seq_id: optional id,
+      raw_sequence: raw,
+      clean_sequence: s6,
+      clean_length: clean_length,
+      non_iupac_fraction: non_iupac_fraction,
+      non_acgtn_fraction: non_acgtn_fraction,
+      n_fraction: n_fraction,
+      n_nruns_capped: n_nruns_capped,
+      gc_content: gc_content,
+      unmerged_reads_detected: unmerged_reads_detected,
+      ends_trimmed: ends_trimmed,
+      gap_and_whitespace_removed: gap_and_whitespace_removed,
+      md5: md5_raw,
+      md5_clean: md5_clean
+    }
+    return result

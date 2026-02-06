@@ -1,0 +1,21 @@
+# Sequence Cleaning Configuration
+# Used by both JavaScript and Java implementations
+
+# Anchor detection settings
+anchor_chars: "ACGTU"
+anchor_minrun: 8
+anchor_strict: "ACGTU"
+
+# Gap characters to remove (regex pattern)
+gap_regex: "[-\\.]"
+
+# Marker for detecting unmerged reads
+marker_regex: "UNMERGED"
+
+# Valid IUPAC nucleotide codes
+iupac_rna: "ACGTURYSWKMBDHVN"
+iupac_dna: "ACGTRYSWKMBDHVN"
+
+# N-run capping: runs of N >= nrun_cap_from will be reduced to nrun_cap_to
+nrun_cap_from: 6
+nrun_cap_to: 5

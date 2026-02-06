@@ -1,0 +1,23 @@
+{
+  "name": "sequence-cleaning",
+  "version": "1.0.0",
+  "description": "DNA/RNA sequence cleaning and normalization library",
+  "main": "processSequence.js",
+  "scripts": {
+    "test": "node processSequence.test.js && node processSequence.data.test.js",
+    "test:unit": "node processSequence.test.js",
+    "test:data": "node processSequence.data.test.js"
+  },
+  "keywords": [
+    "dna",
+    "rna",
+    "sequence",
+    "bioinformatics",
+    "cleaning",
+    "normalization"
+  ],
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
