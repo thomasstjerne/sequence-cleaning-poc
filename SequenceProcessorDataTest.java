@@ -19,7 +19,7 @@ public class SequenceProcessorDataTest {
         SequenceProcessor processor = new SequenceProcessor();
 
         // Load test data
-        String json = Files.readString(Path.of("test_sequences.json"));
+        String json = Files.readString(Path.of("testData/test_sequences.json"));
         List<TestCase> testCases = parseTestCases(json);
 
         System.out.println("Running data-driven tests with " + testCases.size() + " sequences...\n");

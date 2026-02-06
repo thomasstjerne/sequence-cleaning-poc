@@ -117,8 +117,8 @@ java SequenceProcessorDataTest
 
 ## Test Data
 
-- `test_sequences.json` - 110 curated test sequences
-- `testData/` - 9,347 additional test sequences across 5 categories:
+- `testData/` - 9,457 test sequences across 6 files:
+  - `test_sequences.json` - 110 curated test sequences
   - `n_fraction_gt_0_05.json` - High N fraction sequences
   - `n_nruns_capped_gt_1.json` - Multiple N-runs capped
   - `non_acgtn_fraction_gt_0_01.json` - Ambiguous IUPAC codes

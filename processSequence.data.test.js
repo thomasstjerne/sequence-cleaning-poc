@@ -1,6 +1,6 @@
 const assert = require('assert');
 const { processOneSequence, DEFAULT_CONFIG } = require('./processSequence');
-const testData = require('./test_sequences.json');
+const testData = require('./testData/test_sequences.json');
 
 /**
  * Data-driven tests using test_sequences.json
