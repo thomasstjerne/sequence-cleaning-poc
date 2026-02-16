@@ -22,7 +22,7 @@ This library processes raw DNA/RNA sequences through a multi-stage cleaning pipe
 | Field | Type | Description |
 |-------|------|-------------|
 | `clean_sequence` | string | Final cleaned sequence |
-| `clean_length` | int | Length of cleaned sequence in bytes |
+| `sequence_length` | int | Length of cleaned sequence in bytes |
 | `non_iupac_fraction` | float | Fraction of non-IUPAC characters |
 | `non_acgtn_fraction` | float | Fraction of ambiguous IUPAC codes (not A/C/G/T/N) |
 | `n_fraction` | float | Fraction of N characters |
@@ -59,7 +59,7 @@ const { processOneSequence, loadConfig } = require('./processSequence');
 const result = processOneSequence("ACGT-ACGT  NNNNNNNNNN ACGT");
 
 console.log(result.clean_sequence);  // "ACGTACGTNNNNNACGT"
-console.log(result.clean_length);    // 17
+console.log(result.sequence_length);    // 17
 console.log(result.gc_content);      // 0.5
 
 // With custom config

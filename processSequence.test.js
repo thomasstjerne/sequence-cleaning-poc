@@ -238,9 +238,9 @@ test('does not cap short N-runs', () => {
 
 console.log('\n--- Metrics ---');
 
-test('calculates clean_length', () => {
+test('calculates sequence_length', () => {
   const result = processOneSequence('ACGTACGTACGT');
-  assert.strictEqual(result.clean_length, 12);
+  assert.strictEqual(result.sequence_length, 12);
 });
 
 test('calculates n_fraction', () => {
@@ -271,7 +271,7 @@ test('non_iupac_fraction is 0 for valid IUPAC', () => {
 
 test('handles empty sequence metrics', () => {
   const result = processOneSequence('XXXX'); // wipes to empty
-  assert.strictEqual(result.clean_length, 0);
+  assert.strictEqual(result.sequence_length, 0);
   assert.strictEqual(result.n_fraction, null);
   assert.strictEqual(result.gc_content, null);
 });

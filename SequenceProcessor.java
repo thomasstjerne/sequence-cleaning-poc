@@ -120,7 +120,7 @@ public class SequenceProcessor {
         String seqId,
         String rawSequence,
         String cleanSequence,
-        int cleanLength,
+        int sequenceLength,
         Double nonIupacFraction,
         Double nonAcgtnFraction,
         Double nFraction,
@@ -200,15 +200,15 @@ public class SequenceProcessor {
         String s6 = s5.replaceAll(capPattern, capToStr);
 
         // Additional metrics (on s6)
-        int cleanLength = s6.length();
+        int sequenceLength = s6.length();
         int nCount = countFixed(s6, 'N');
-        Double nFraction = cleanLength > 0 ? (double) nCount / cleanLength : null;
+        Double nFraction = sequenceLength > 0 ? (double) nCount / sequenceLength : null;
 
         // Compute ambiguous/non-IUPAC counts AFTER capping (on s6)
         int nonAcgtnCount = countRegex(s6, "[^ACGTN]");
         int nonIupacCount = countRegex(s6, "[^" + config.iupacDna() + "]");
-        Double nonAcgtnFraction = cleanLength > 0 ? (double) nonAcgtnCount / cleanLength : null;
-        Double nonIupacFraction = cleanLength > 0 ? (double) nonIupacCount / cleanLength : null;
+        Double nonAcgtnFraction = sequenceLength > 0 ? (double) nonAcgtnCount / sequenceLength : null;
+        Double nonIupacFraction = sequenceLength > 0 ? (double) nonIupacCount / sequenceLength : null;
 
         // GC content (A/C/G/T only in denominator)
         int gc = countRegex(s6, "[GC]");
@@ -222,7 +222,7 @@ public class SequenceProcessor {
             seqId,
             raw,
             s6,
-            cleanLength,
+            sequenceLength,
             nonIupacFraction,
             nonAcgtnFraction,
             nFraction,
@@ -347,7 +347,7 @@ public class SequenceProcessor {
 
         System.out.println("Input:  " + result.rawSequence());
         System.out.println("Output: " + result.cleanSequence());
-        System.out.println("Length: " + result.cleanLength());
+        System.out.println("Length: " + result.sequenceLength());
         System.out.println("GC:     " + result.gcContent());
         System.out.println("MD5:    " + result.md5());
     }

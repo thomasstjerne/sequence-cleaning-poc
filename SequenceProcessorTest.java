@@ -232,9 +232,9 @@ public class SequenceProcessorTest {
     // =========================================================================
 
     private static void testMetrics() {
-        test("calculates clean_length", () -> {
+        test("calculates sequence_length", () -> {
             var result = processor.processOneSequence("ACGTACGTACGT");
-            assertEqual(result.cleanLength(), 12);
+            assertEqual(result.sequenceLength(), 12);
         });
 
         test("calculates n_fraction", () -> {
@@ -265,7 +265,7 @@ public class SequenceProcessorTest {
 
         test("handles empty sequence metrics", () -> {
             var result = processor.processOneSequence("XXXX"); // wipes to empty
-            assertEqual(result.cleanLength(), 0);
+            assertEqual(result.sequenceLength(), 0);
             assertEqual(result.nFraction(), null);
             assertEqual(result.gcContent(), null);
         });

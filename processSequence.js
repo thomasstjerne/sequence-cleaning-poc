@@ -214,15 +214,15 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
   const s6 = s5.replace(new RegExp(capPattern, 'g'), capToStr);
 
   // Additional metrics (on s6)
-  const cleanLength = s6.length;
+  const sequenceLength = s6.length;
   const nCount = (s6.match(/N/g) || []).length;
-  const nFraction = cleanLength > 0 ? nCount / cleanLength : null;
+  const nFraction = sequenceLength > 0 ? nCount / sequenceLength : null;
 
   // Compute ambiguous/non-IUPAC counts AFTER capping (on s6)
   const nonAcgtnCount = countRegex(s6, "[^ACGTN]");
   const nonIupacCount = countRegex(s6, `[^${config.iupac_dna}]`);
-  const nonAcgtnFraction = cleanLength > 0 ? nonAcgtnCount / cleanLength : null;
-  const nonIupacFraction = cleanLength > 0 ? nonIupacCount / cleanLength : null;
+  const nonAcgtnFraction = sequenceLength > 0 ? nonAcgtnCount / sequenceLength : null;
+  const nonIupacFraction = sequenceLength > 0 ? nonIupacCount / sequenceLength : null;
 
   // GC content (A/C/G/T only in denominator)
   const gc = countRegex(s6, "[GC]");
@@ -237,7 +237,7 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
     seq_id: seqId,
     raw_sequence: raw,
     clean_sequence: s6,
-    clean_length: cleanLength,
+    sequence_length: sequenceLength,
     non_iupac_fraction: nonIupacFraction,
     non_acgtn_fraction: nonAcgtnFraction,
     n_fraction: nFraction,

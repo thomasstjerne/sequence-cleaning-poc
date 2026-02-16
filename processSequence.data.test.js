@@ -59,7 +59,7 @@ for (const [category, sequences] of Object.entries(byCategory)) {
 
       // Check all expected fields
       assertEqual(result.clean_sequence, expected.clean_sequence, 'clean_sequence');
-      assertEqual(result.clean_length, expected.clean_length, 'clean_length');
+      assertEqual(result.sequence_length, expected.sequence_length, 'sequence_length');
       assertEqual(result.n_nruns_capped, expected.n_nruns_capped, 'n_nruns_capped');
       assertEqual(result.unmerged_reads_detected, expected.unmerged_reads_detected, 'unmerged_reads_detected');
       assertEqual(result.ends_trimmed, expected.ends_trimmed, 'ends_trimmed');
