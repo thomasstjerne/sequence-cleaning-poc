@@ -278,20 +278,14 @@ public class SequenceProcessorTest {
     private static void testMd5() {
         test("generates md5_clean", () -> {
             var result = processor.processOneSequence("ACGTACGTACGT");
-            assertTrue(result.md5Clean() != null);
-            assertEqual(result.md5Clean().length(), 32);
-            assertTrue(result.md5Clean().matches("^[a-f0-9]{32}$"));
+            assertTrue(result.md5() != null);
+            assertEqual(result.md5().length(), 32);
+            assertTrue(result.md5().matches("^[a-f0-9]{32}$"));
         });
 
-        test("md5_raw strips non-IUPAC before hashing", () -> {
-            var result1 = processor.processOneSequence("ACGTACGTACGT");
-            var result2 = processor.processOneSequence("ACGT---ACGT...ACGT");
-            assertEqual(result1.md5(), result2.md5());
-        });
-
-        test("md5 is null for empty sequence", () -> {
+        test("md5_clean is null for empty sequence", () -> {
             var result = processor.processOneSequence("");
-            assertEqual(result.md5Clean(), null);
+            assertEqual(result.md5(), null);
         });
     }
 

@@ -229,11 +229,7 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
   const acgt = countRegex(s6, "[ACGT]");
   const gcContent = acgt > 0 ? gc / acgt : null;
 
-  // MD5s
-  // md5_raw mimics GBIF behavior: strip to IUPAC RNA first, then compute MD5
-  // md5_clean is computed on the final cleaned sequence
-  const iupacRnaPattern = new RegExp(`[^${config.iupac_rna}]+`, 'g');
-  const md5Raw = md5(raw.toUpperCase().replace(iupacRnaPattern, ""));
+  // MD5 of the final cleaned sequence
   const md5Clean = md5(s6);
 
   // Output object
@@ -250,8 +246,7 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
     unmerged_reads_detected: unmergedReadsDetected,
     ends_trimmed: endsTrimmed,
     gap_and_whitespace_removed: gapAndWhitespaceRemoved,
-    md5: md5Raw,
-    md5_clean: md5Clean
+    md5: md5Clean
   };
 }
 

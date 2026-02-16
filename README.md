@@ -31,8 +31,7 @@ This library processes raw DNA/RNA sequences through a multi-stage cleaning pipe
 | `unmerged_reads_detected` | bool | Whether UNMERGED marker was found |
 | `ends_trimmed` | bool | Whether ends were trimmed |
 | `gap_and_whitespace_removed` | bool | Whether gaps or whitespace were removed |
-| `md5` | string | MD5 of raw sequence (IUPAC RNA normalized) |
-| `md5_clean` | string | MD5 of final cleaned sequence |
+| `md5` | string | MD5 of final cleaned sequence |
 
 ## Configuration
 

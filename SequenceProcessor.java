@@ -129,8 +129,7 @@ public class SequenceProcessor {
         boolean unmergedReadsDetected,
         boolean endsTrimmed,
         boolean gapAndWhitespaceRemoved,
-        String md5,
-        String md5Clean
+        String md5
     ) {}
 
     /**
@@ -216,12 +215,8 @@ public class SequenceProcessor {
         int acgt = countRegex(s6, "[ACGT]");
         Double gcContent = acgt > 0 ? (double) gc / acgt : null;
 
-        // MD5s
-        // md5_raw mimics GBIF behavior: strip to IUPAC RNA first, then compute MD5
-        // md5_clean is computed on the final cleaned sequence
-        String strippedRaw = raw.toUpperCase().replaceAll("[^" + config.iupacRna() + "]+", "");
-        String md5Raw = md5(strippedRaw);
-        String md5Clean = md5(s6);
+        // MD5 of the final cleaned sequence
+        String md5 = md5(s6);
 
         return new Result(
             seqId,
@@ -236,8 +231,7 @@ public class SequenceProcessor {
             unmergedReadsDetected,
             endsTrimmed,
             gapAndWhitespaceRemoved,
-            md5Raw,
-            md5Clean
+            md5
         );
     }
 
@@ -355,6 +349,6 @@ public class SequenceProcessor {
         System.out.println("Output: " + result.cleanSequence());
         System.out.println("Length: " + result.cleanLength());
         System.out.println("GC:     " + result.gcContent());
-        System.out.println("MD5:    " + result.md5Clean());
+        System.out.println("MD5:    " + result.md5());
     }
 }

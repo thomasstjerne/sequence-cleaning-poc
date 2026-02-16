@@ -282,23 +282,17 @@ test('handles empty sequence metrics', () => {
 
 console.log('\n--- MD5 Hashes ---');
 
-test('generates md5_clean', () => {
+test('generates md5', () => {
   const result = processOneSequence('ACGTACGTACGT');
   // Verify it's a valid 32-character hex MD5 hash
-  assert.ok(result.md5_clean);
-  assert.strictEqual(result.md5_clean.length, 32);
-  assert.ok(/^[a-f0-9]{32}$/.test(result.md5_clean));
-});
-
-test('md5_raw strips non-IUPAC before hashing', () => {
-  const result1 = processOneSequence('ACGTACGTACGT');
-  const result2 = processOneSequence('ACGT---ACGT...ACGT');
-  assert.strictEqual(result1.md5, result2.md5);
+  assert.ok(result.md5);
+  assert.strictEqual(result.md5.length, 32);
+  assert.ok(/^[a-f0-9]{32}$/.test(result.md5));
 });
 
 test('md5 is null for empty sequence', () => {
   const result = processOneSequence('');
-  assert.strictEqual(result.md5_clean, null);
+  assert.strictEqual(result.md5, null);
 });
 
 // =============================================================================
