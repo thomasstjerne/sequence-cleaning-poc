@@ -78,7 +78,7 @@ SequenceProcessor.Result result = processor.processOneSequence(
 );
 
 System.out.println(result.sequence());  // "ACGTACGTNNNNNACGT"
-System.out.println(result.cleanLength());    // 17
+System.out.println(result.sequenceLength());    // 17
 System.out.println(result.gcContent());      // 0.5
 
 // With custom config
