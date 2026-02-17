@@ -58,7 +58,7 @@ for (const [category, sequences] of Object.entries(byCategory)) {
       const result = processOneSequence(raw_sequence, DEFAULT_CONFIG, seq_id);
 
       // Check all expected fields
-      assertEqual(result.clean_sequence, expected.clean_sequence, 'clean_sequence');
+      assertEqual(result.sequence, expected.sequence, 'sequence');
       assertEqual(result.sequence_length, expected.sequence_length, 'sequence_length');
       assertEqual(result.n_nruns_capped, expected.n_nruns_capped, 'n_nruns_capped');
       assertEqual(result.unmerged_reads_detected, expected.unmerged_reads_detected, 'unmerged_reads_detected');

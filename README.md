@@ -21,7 +21,7 @@ This library processes raw DNA/RNA sequences through a multi-stage cleaning pipe
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `clean_sequence` | string | Final cleaned sequence |
+| `sequence` | string | Final cleaned sequence |
 | `sequence_length` | int | Length of cleaned sequence in bytes |
 | `non_iupac_fraction` | float | Fraction of non-IUPAC characters |
 | `non_acgtn_fraction` | float | Fraction of ambiguous IUPAC codes (not A/C/G/T/N) |
@@ -31,7 +31,7 @@ This library processes raw DNA/RNA sequences through a multi-stage cleaning pipe
 | `unmerged_reads_detected` | bool | Whether UNMERGED marker was found |
 | `ends_trimmed` | bool | Whether ends were trimmed |
 | `gap_and_whitespace_removed` | bool | Whether gaps or whitespace were removed |
-| `md5` | string | MD5 of final cleaned sequence |
+| `nucleotideSequenceID` | string | MD5 of final cleaned sequence |
 
 ## Configuration
 
@@ -58,7 +58,7 @@ const { processOneSequence, loadConfig } = require('./processSequence');
 // Using default config (from config.yaml)
 const result = processOneSequence("ACGT-ACGT  NNNNNNNNNN ACGT");
 
-console.log(result.clean_sequence);  // "ACGTACGTNNNNNACGT"
+console.log(result.sequence);  // "ACGTACGTNNNNNACGT"
 console.log(result.sequence_length);    // 17
 console.log(result.gc_content);      // 0.5
 
@@ -77,7 +77,7 @@ SequenceProcessor.Result result = processor.processOneSequence(
     "ACGT-ACGT  NNNNNNNNNN ACGT"
 );
 
-System.out.println(result.cleanSequence());  // "ACGTACGTNNNNNACGT"
+System.out.println(result.sequence());  // "ACGTACGTNNNNNACGT"
 System.out.println(result.cleanLength());    // 17
 System.out.println(result.gcContent());      // 0.5
 

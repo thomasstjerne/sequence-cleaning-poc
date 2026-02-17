@@ -98,18 +98,18 @@ public class SequenceProcessorTest {
     private static void testWhitespaceUppercase() {
         test("converts lowercase to uppercase", () -> {
             var result = processor.processOneSequence("acgtacgtacgt");
-            assertEqual(result.cleanSequence(), "ACGTACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
         });
 
         test("removes whitespace", () -> {
             var result = processor.processOneSequence("acgt acgt  acgt");
-            assertEqual(result.cleanSequence(), "ACGTACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
             assertEqual(result.gapAndWhitespaceRemoved(), true);
         });
 
         test("removes tabs and newlines", () -> {
             var result = processor.processOneSequence("acgt\tacgt\nacgt");
-            assertEqual(result.cleanSequence(), "ACGTACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
         });
     }
 
@@ -136,18 +136,18 @@ public class SequenceProcessorTest {
     private static void testGapRemoval() {
         test("removes hyphens", () -> {
             var result = processor.processOneSequence("ACGT-ACGT-ACGT");
-            assertEqual(result.cleanSequence(), "ACGTACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
             assertEqual(result.gapAndWhitespaceRemoved(), true);
         });
 
         test("removes dots", () -> {
             var result = processor.processOneSequence("ACGT..ACGT..ACGT");
-            assertEqual(result.cleanSequence(), "ACGTACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
         });
 
         test("removes mixed gaps", () -> {
             var result = processor.processOneSequence("ACGT--.ACGT");
-            assertEqual(result.cleanSequence(), "ACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGT");
         });
     }
 
@@ -158,31 +158,31 @@ public class SequenceProcessorTest {
     private static void testAnchorTrimming() {
         test("trims non-anchor prefix", () -> {
             var result = processor.processOneSequence("XXXXACGTACGTACGT");
-            assertEqual(result.cleanSequence(), "ACGTACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
             assertEqual(result.endsTrimmed(), true);
         });
 
         test("trims non-anchor suffix", () -> {
             var result = processor.processOneSequence("ACGTACGTACGTXXXX");
-            assertEqual(result.cleanSequence(), "ACGTACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
             assertEqual(result.endsTrimmed(), true);
         });
 
         test("trims both ends", () -> {
             var result = processor.processOneSequence("XXXXACGTACGTACGTXXXX");
-            assertEqual(result.cleanSequence(), "ACGTACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
             assertEqual(result.endsTrimmed(), true);
         });
 
         test("no trim when sequence is all anchors", () -> {
             var result = processor.processOneSequence("ACGTACGTACGT");
-            assertEqual(result.cleanSequence(), "ACGTACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
             assertEqual(result.endsTrimmed(), false);
         });
 
         test("wipes sequence with no valid anchor run", () -> {
             var result = processor.processOneSequence("ACGTXXXXACGT");
-            assertEqual(result.cleanSequence(), "");
+            assertEqual(result.sequence(), "");
             assertEqual(result.endsTrimmed(), true);
         });
     }
@@ -194,12 +194,12 @@ public class SequenceProcessorTest {
     private static void testUtoTConversion() {
         test("converts U to T", () -> {
             var result = processor.processOneSequence("ACGUACGUACGU");
-            assertEqual(result.cleanSequence(), "ACGTACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
         });
 
         test("converts mixed U and T", () -> {
             var result = processor.processOneSequence("ACGUACGTACGU");
-            assertEqual(result.cleanSequence(), "ACGTACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
         });
     }
 
@@ -210,19 +210,19 @@ public class SequenceProcessorTest {
     private static void testNrunCapping() {
         test("caps long N-runs to 5", () -> {
             var result = processor.processOneSequence("ACGTACGTNNNNNNNNNNACGTACGT");
-            assertEqual(result.cleanSequence(), "ACGTACGTNNNNNACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTNNNNNACGTACGT");
             assertEqual(result.nNrunsCapped(), 1);
         });
 
         test("caps multiple N-runs", () -> {
             var result = processor.processOneSequence("ACGTACGTNNNNNNACGTNNNNNNNNACGTACGT");
-            assertEqual(result.cleanSequence(), "ACGTACGTNNNNNACGTNNNNNACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTNNNNNACGTNNNNNACGTACGT");
             assertEqual(result.nNrunsCapped(), 2);
         });
 
         test("does not cap short N-runs", () -> {
             var result = processor.processOneSequence("ACGTACGTNNNNNACGTACGT");
-            assertEqual(result.cleanSequence(), "ACGTACGTNNNNNACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTNNNNNACGTACGT");
             assertEqual(result.nNrunsCapped(), 0);
         });
     }
@@ -276,16 +276,16 @@ public class SequenceProcessorTest {
     // =========================================================================
 
     private static void testMd5() {
-        test("generates md5_clean", () -> {
+        test("generates nucleotideSequenceID", () -> {
             var result = processor.processOneSequence("ACGTACGTACGT");
-            assertTrue(result.md5() != null);
-            assertEqual(result.md5().length(), 32);
-            assertTrue(result.md5().matches("^[a-f0-9]{32}$"));
+            assertTrue(result.nucleotideSequenceID() != null);
+            assertEqual(result.nucleotideSequenceID().length(), 32);
+            assertTrue(result.nucleotideSequenceID().matches("^[a-f0-9]{32}$"));
         });
 
-        test("md5_clean is null for empty sequence", () -> {
+        test("nucleotideSequenceID is null for empty sequence", () -> {
             var result = processor.processOneSequence("");
-            assertEqual(result.md5(), null);
+            assertEqual(result.nucleotideSequenceID(), null);
         });
     }
 
@@ -296,28 +296,28 @@ public class SequenceProcessorTest {
     private static void testFullPipelineExamples() {
         test("example: whitespace normalization", () -> {
             var result = processor.processOneSequence("acgtac gta  cgt");
-            assertEqual(result.cleanSequence(), "ACGTACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
         });
 
         test("example: gap removal", () -> {
             var result = processor.processOneSequence("ACGT-ACGT..ACGT");
-            assertEqual(result.cleanSequence(), "ACGTACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
         });
 
         test("example: anchor trimming", () -> {
             var result = processor.processOneSequence("THISISMYGBIFSEQUENCEACGTACGTACGTNNNNNENDOFSEQUENCE");
-            assertTrue(result.cleanSequence().startsWith("ACGTACGT"));
+            assertTrue(result.sequence().startsWith("ACGTACGT"));
             assertEqual(result.endsTrimmed(), true);
         });
 
         test("example: U to T conversion", () -> {
             var result = processor.processOneSequence("ACGTUACGTU");
-            assertEqual(result.cleanSequence(), "ACGTTACGTT");
+            assertEqual(result.sequence(), "ACGTTACGTT");
         });
 
         test("example: N-run capping", () -> {
             var result = processor.processOneSequence("ACGTACGTNNNNNNNNNNNNNNACGTACGTNNNNNNNNNACGTACGT");
-            assertEqual(result.cleanSequence(), "ACGTACGTNNNNNACGTACGTNNNNNACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTNNNNNACGTACGTNNNNNACGTACGT");
         });
     }
 
@@ -329,13 +329,13 @@ public class SequenceProcessorTest {
         test("handles null input", () -> {
             var result = processor.processOneSequence(null);
             assertEqual(result.rawSequence(), "");
-            assertEqual(result.cleanSequence(), "");
+            assertEqual(result.sequence(), "");
         });
 
         test("handles empty input", () -> {
             var result = processor.processOneSequence("");
             assertEqual(result.rawSequence(), "");
-            assertEqual(result.cleanSequence(), "");
+            assertEqual(result.sequence(), "");
         });
 
         test("preserves seq_id", () -> {
@@ -350,7 +350,7 @@ public class SequenceProcessorTest {
             );
             var customProcessor = new SequenceProcessor(customConfig);
             var result = customProcessor.processOneSequence("ACGTACGTNNNACGTACGT");
-            assertEqual(result.cleanSequence(), "ACGTACGTNNACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTNNACGTACGT");
         });
 
         test("custom config: different anchor_minrun", () -> {
@@ -360,7 +360,7 @@ public class SequenceProcessorTest {
             );
             var customProcessor = new SequenceProcessor(customConfig);
             var result = customProcessor.processOneSequence("XXXACGTXXX");
-            assertEqual(result.cleanSequence(), "ACGT");
+            assertEqual(result.sequence(), "ACGT");
         });
     }
 }

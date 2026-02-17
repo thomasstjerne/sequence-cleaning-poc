@@ -230,13 +230,13 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
   const gcContent = acgt > 0 ? gc / acgt : null;
 
   // MD5 of the final cleaned sequence
-  const md5Clean = md5(s6);
+  const nucleotideSequenceID = md5(s6);
 
   // Output object
   return {
     seq_id: seqId,
     raw_sequence: raw,
-    clean_sequence: s6,
+    sequence: s6,
     sequence_length: sequenceLength,
     non_iupac_fraction: nonIupacFraction,
     non_acgtn_fraction: nonAcgtnFraction,
@@ -246,7 +246,7 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
     unmerged_reads_detected: unmergedReadsDetected,
     ends_trimmed: endsTrimmed,
     gap_and_whitespace_removed: gapAndWhitespaceRemoved,
-    md5: md5Clean
+    nucleotide_sequence_id: nucleotideSequenceID
   };
 }
 

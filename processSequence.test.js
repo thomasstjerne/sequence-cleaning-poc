@@ -104,18 +104,18 @@ console.log('\n--- Stage A: Whitespace + Uppercase ---');
 
 test('converts lowercase to uppercase', () => {
   const result = processOneSequence('acgtacgtacgt');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
 });
 
 test('removes whitespace', () => {
   const result = processOneSequence('acgt acgt  acgt');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
   assert.strictEqual(result.gap_and_whitespace_removed, true);
 });
 
 test('removes tabs and newlines', () => {
   const result = processOneSequence('acgt\tacgt\nacgt');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
 });
 
 // =============================================================================
@@ -142,18 +142,18 @@ console.log('\n--- Stage C: Gap Removal ---');
 
 test('removes hyphens', () => {
   const result = processOneSequence('ACGT-ACGT-ACGT');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
   assert.strictEqual(result.gap_and_whitespace_removed, true);
 });
 
 test('removes dots', () => {
   const result = processOneSequence('ACGT..ACGT..ACGT');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
 });
 
 test('removes mixed gaps', () => {
   const result = processOneSequence('ACGT--.ACGT');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGT');
 });
 
 // =============================================================================
@@ -164,31 +164,31 @@ console.log('\n--- Stage D: Anchor Trimming ---');
 
 test('trims non-anchor prefix', () => {
   const result = processOneSequence('XXXXACGTACGTACGT');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
   assert.strictEqual(result.ends_trimmed, true);
 });
 
 test('trims non-anchor suffix', () => {
   const result = processOneSequence('ACGTACGTACGTXXXX');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
   assert.strictEqual(result.ends_trimmed, true);
 });
 
 test('trims both ends', () => {
   const result = processOneSequence('XXXXACGTACGTACGTXXXX');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
   assert.strictEqual(result.ends_trimmed, true);
 });
 
 test('no trim when sequence is all anchors', () => {
   const result = processOneSequence('ACGTACGTACGT');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
   assert.strictEqual(result.ends_trimmed, false);
 });
 
 test('wipes sequence with no valid anchor run', () => {
   const result = processOneSequence('ACGTXXXXACGT');
-  assert.strictEqual(result.clean_sequence, '');
+  assert.strictEqual(result.sequence, '');
   assert.strictEqual(result.ends_trimmed, true);
 });
 
@@ -200,12 +200,12 @@ console.log('\n--- Stage E: U to T Conversion ---');
 
 test('converts U to T', () => {
   const result = processOneSequence('ACGUACGUACGU');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
 });
 
 test('converts mixed U and T', () => {
   const result = processOneSequence('ACGUACGTACGU');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
 });
 
 // =============================================================================
@@ -216,19 +216,19 @@ console.log('\n--- Stage F: N-run Capping ---');
 
 test('caps long N-runs to 5', () => {
   const result = processOneSequence('ACGTACGTNNNNNNNNNNACGTACGT');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTNNNNNACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTNNNNNACGTACGT');
   assert.strictEqual(result.n_nruns_capped, 1);
 });
 
 test('caps multiple N-runs', () => {
   const result = processOneSequence('ACGTACGTNNNNNNACGTNNNNNNNNACGTACGT');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTNNNNNACGTNNNNNACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTNNNNNACGTNNNNNACGTACGT');
   assert.strictEqual(result.n_nruns_capped, 2);
 });
 
 test('does not cap short N-runs', () => {
   const result = processOneSequence('ACGTACGTNNNNNACGTACGT');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTNNNNNACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTNNNNNACGTACGT');
   assert.strictEqual(result.n_nruns_capped, 0);
 });
 
@@ -282,17 +282,17 @@ test('handles empty sequence metrics', () => {
 
 console.log('\n--- MD5 Hashes ---');
 
-test('generates md5', () => {
+test('generates nucleotide_sequence_id', () => {
   const result = processOneSequence('ACGTACGTACGT');
   // Verify it's a valid 32-character hex MD5 hash
-  assert.ok(result.md5);
-  assert.strictEqual(result.md5.length, 32);
-  assert.ok(/^[a-f0-9]{32}$/.test(result.md5));
+  assert.ok(result.nucleotide_sequence_id);
+  assert.strictEqual(result.nucleotide_sequence_id.length, 32);
+  assert.ok(/^[a-f0-9]{32}$/.test(result.nucleotide_sequence_id));
 });
 
-test('md5 is null for empty sequence', () => {
+test('nucleotide_sequence_id is null for empty sequence', () => {
   const result = processOneSequence('');
-  assert.strictEqual(result.md5, null);
+  assert.strictEqual(result.nucleotide_sequence_id, null);
 });
 
 // =============================================================================
@@ -303,29 +303,29 @@ console.log('\n--- Full Pipeline Examples ---');
 
 test('example: whitespace normalization', () => {
   const result = processOneSequence('acgtac gta  cgt');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
 });
 
 test('example: gap removal', () => {
   const result = processOneSequence('ACGT-ACGT..ACGT');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
 });
 
 test('example: anchor trimming', () => {
   const result = processOneSequence('THISISMYGBIFSEQUENCEACGTACGTACGTNNNNNENDOFSEQUENCE');
   // Should trim to first anchor run of 8+ ACGTU chars
-  assert.ok(result.clean_sequence.startsWith('ACGTACGT'));
+  assert.ok(result.sequence.startsWith('ACGTACGT'));
   assert.strictEqual(result.ends_trimmed, true);
 });
 
 test('example: U to T conversion', () => {
   const result = processOneSequence('ACGTUACGTU');
-  assert.strictEqual(result.clean_sequence, 'ACGTTACGTT');
+  assert.strictEqual(result.sequence, 'ACGTTACGTT');
 });
 
 test('example: N-run capping', () => {
   const result = processOneSequence('ACGTACGTNNNNNNNNNNNNNNACGTACGTNNNNNNNNNACGTACGT');
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTNNNNNACGTACGTNNNNNACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTNNNNNACGTACGTNNNNNACGTACGT');
 });
 
 // =============================================================================
@@ -337,13 +337,13 @@ console.log('\n--- Edge Cases ---');
 test('handles null input', () => {
   const result = processOneSequence(null);
   assert.strictEqual(result.raw_sequence, '');
-  assert.strictEqual(result.clean_sequence, '');
+  assert.strictEqual(result.sequence, '');
 });
 
 test('handles undefined input', () => {
   const result = processOneSequence(undefined);
   assert.strictEqual(result.raw_sequence, '');
-  assert.strictEqual(result.clean_sequence, '');
+  assert.strictEqual(result.sequence, '');
 });
 
 test('preserves seq_id', () => {
@@ -354,13 +354,13 @@ test('preserves seq_id', () => {
 test('custom config: different nrun_cap', () => {
   const customConfig = { ...DEFAULT_CONFIG, nrun_cap_from: 3, nrun_cap_to: 2 };
   const result = processOneSequence('ACGTACGTNNNACGTACGT', customConfig);
-  assert.strictEqual(result.clean_sequence, 'ACGTACGTNNACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTNNACGTACGT');
 });
 
 test('custom config: different anchor_minrun', () => {
   const customConfig = { ...DEFAULT_CONFIG, anchor_minrun: 4 };
   const result = processOneSequence('XXXACGTXXX', customConfig);
-  assert.strictEqual(result.clean_sequence, 'ACGT');
+  assert.strictEqual(result.sequence, 'ACGT');
 });
 
 // =============================================================================

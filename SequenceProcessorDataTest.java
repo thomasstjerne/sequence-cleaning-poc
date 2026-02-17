@@ -41,7 +41,7 @@ public class SequenceProcessorDataTest {
             test(tc.seqId, () -> {
                 SequenceProcessor.Result result = processor.processOneSequence(tc.rawSequence, tc.seqId);
 
-                assertEqual(result.cleanSequence(), tc.expectedCleanSequence, "clean_sequence");
+                assertEqual(result.sequence(), tc.expectedCleanSequence, "sequence");
                 assertEqual(result.sequenceLength(), tc.expectedCleanLength, "sequence_length");
                 assertEqual(result.nNrunsCapped(), tc.expectedNrunsCapped, "n_nruns_capped");
                 assertEqual(result.unmergedReadsDetected(), tc.expectedUnmergedReadsDetected, "unmerged_reads_detected");
@@ -231,7 +231,7 @@ public class SequenceProcessorDataTest {
             int expectedObjEnd = findMatchingBrace(json, expectedObjStart);
             String expectedJson = json.substring(expectedObjStart, expectedObjEnd + 1);
 
-            tc.expectedCleanSequence = extractString(expectedJson, "clean_sequence");
+            tc.expectedCleanSequence = extractString(expectedJson, "sequence");
             tc.expectedCleanLength = extractInt(expectedJson, "sequence_length");
             tc.expectedNonIupacFraction = extractDouble(expectedJson, "non_iupac_fraction");
             tc.expectedNonAcgtnFraction = extractDouble(expectedJson, "non_acgtn_fraction");

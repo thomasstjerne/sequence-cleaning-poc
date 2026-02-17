@@ -119,7 +119,7 @@ public class SequenceProcessor {
     public record Result(
         String seqId,
         String rawSequence,
-        String cleanSequence,
+        String sequence,
         int sequenceLength,
         Double nonIupacFraction,
         Double nonAcgtnFraction,
@@ -129,7 +129,7 @@ public class SequenceProcessor {
         boolean unmergedReadsDetected,
         boolean endsTrimmed,
         boolean gapAndWhitespaceRemoved,
-        String md5
+        String nucleotideSequenceID
     ) {}
 
     /**
@@ -216,7 +216,7 @@ public class SequenceProcessor {
         Double gcContent = acgt > 0 ? (double) gc / acgt : null;
 
         // MD5 of the final cleaned sequence
-        String md5 = md5(s6);
+        String nucleotideSequenceID = md5(s6);
 
         return new Result(
             seqId,
@@ -231,7 +231,7 @@ public class SequenceProcessor {
             unmergedReadsDetected,
             endsTrimmed,
             gapAndWhitespaceRemoved,
-            md5
+            nucleotideSequenceID
         );
     }
 
@@ -346,9 +346,9 @@ public class SequenceProcessor {
         );
 
         System.out.println("Input:  " + result.rawSequence());
-        System.out.println("Output: " + result.cleanSequence());
+        System.out.println("Output: " + result.sequence());
         System.out.println("Length: " + result.sequenceLength());
         System.out.println("GC:     " + result.gcContent());
-        System.out.println("MD5:    " + result.md5());
+        System.out.println("nucleotideSequenceID: " + result.nucleotideSequenceID());
     }
 }

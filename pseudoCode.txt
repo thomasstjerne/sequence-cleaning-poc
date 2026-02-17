@@ -10,7 +10,7 @@ PSEUDO_CODE_function_process_one_sequence.txt
 
 # The output object includes:
 # - raw_sequence: the original input sequence (as-is) # NB: for reference and debugging, likely not necessary in the final output dataset
-# - clean_sequence: the final cleaned sequence after all processing steps
+# - sequence: the final cleaned sequence after all processing steps
 # - clean_length: (calculated metric) length of the cleaned sequence in bytes 
 # - non_iupac_fraction: (calculated metric) fraction of characters in the cleaned sequence that are not valid IUPAC DNA characters
 # - non_acgtn_fraction: (calculated metric) fraction of characters in the cleaned sequence that are not A/C/G/T/N
@@ -21,7 +21,7 @@ PSEUDO_CODE_function_process_one_sequence.txt
 # - ends_trimmed: boolean flag indicating if the sequence was trimmed at the ends based on anchor detection
 # - gap_and_whitespace_removed: boolean flag indicating if any gaps or whitespace were removed during cleaning
 # - md5: MD5 hash of the raw sequence after stripping to IUPAC RNA characters (mimicking current GBIF behavior for development purpose) # NB: this is not the MD5 of the original raw sequence, but rather the MD5 of the raw sequence after a specific transformation (strip to IUPAC RNA and uppercase) . Do not include in final function.
-# - md5_clean: MD5 hash of the final cleaned sequence # NB: this is the MD5 of the final cleaned sequence. This is the value that is meant to be used for indexing sequences in the GBIF occurrence index. 
+# - nucleotideSequenceID: MD5 hash of the final cleaned sequence # NB: this is the MD5 of the final cleaned sequence. This is the value that is meant to be used for indexing sequences in the GBIF occurrence index.
 
 # function process_one_sequence(seq, config):
     # config: anchor_chars, anchor_minrun, gap_regex, marker_regex,
@@ -96,15 +96,15 @@ PSEUDO_CODE_function_process_one_sequence.txt
 
     # MD5s
     # md5_raw is meant to mimick the current GBIF behavior: strip to IUPAC RNA first, then compute MD5
-    # md5_clean is computed on the final cleaned sequence
+    # nucleotideSequenceID is computed on the final cleaned sequence
     md5_raw = md5( uppercase( remove_regex(raw, "[^" + config.iupac_rna + "]+") ) )
-    md5_clean = md5(s6)
+    nucleotideSequenceID = md5(s6)
 
     # Output object
     result = {
       seq_id: optional id,
       raw_sequence: raw,
-      clean_sequence: s6,
+      sequence: s6,
       clean_length: clean_length,
       non_iupac_fraction: non_iupac_fraction,
       non_acgtn_fraction: non_acgtn_fraction,
@@ -115,6 +115,6 @@ PSEUDO_CODE_function_process_one_sequence.txt
       ends_trimmed: ends_trimmed,
       gap_and_whitespace_removed: gap_and_whitespace_removed,
       md5: md5_raw,
-      md5_clean: md5_clean
+      nucleotideSequenceID: nucleotideSequenceID
     }
     return result
