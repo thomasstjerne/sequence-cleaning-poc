@@ -74,7 +74,7 @@ try {
     anchor_minrun: 8,
     anchor_strict: "ACGTU",
     gap_regex: "[-\\.]",
-    marker_regex: "UNMERGED",
+    natural_language_regex: "UNMERGED",
     iupac_rna: "ACGTURYSWKMBDHVN",
     iupac_dna: "ACGTRYSWKMBDHVN",
     nrun_cap_from: 6,
@@ -180,10 +180,10 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
   const s0 = raw.replace(/\s+/g, "");
   const s1 = s0.toUpperCase();
 
-  // Stage B: detect unmerged reads
-  // example: "ACGTUNMERGEDACGT" -> unmergedReadsDetected = true
-  const markerRegex = new RegExp(config.marker_regex);
-  const unmergedReadsDetected = markerRegex.test(s1);
+  // Stage B: detect natural language
+  // example: "ACGTUNMERGEDACGT" -> naturalLanguageDetected = true
+  const naturalLanguageRegex = new RegExp(config.natural_language_regex);
+  const naturalLanguageDetected = naturalLanguageRegex.test(s1);
 
   // Stage C: remove gaps
   // example: "ACGT-ACGT..ACGT" -> "ACGTACGTACGT"
@@ -243,7 +243,7 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
     n_fraction: nFraction,
     n_nruns_capped: nNrunsCapped,
     gc_content: gcContent,
-    unmerged_reads_detected: unmergedReadsDetected,
+    natural_language_detected: naturalLanguageDetected,
     ends_trimmed: endsTrimmed,
     gap_and_whitespace_removed: gapAndWhitespaceRemoved,
     nucleotide_sequence_id: nucleotideSequenceID

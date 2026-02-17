@@ -11,7 +11,7 @@ This library processes raw DNA/RNA sequences through a multi-stage cleaning pipe
 | Stage | Description | Example |
 |-------|-------------|---------|
 | A | Normalize whitespace + uppercase | `"acgt acgt"` → `"ACGTACGT"` |
-| B | Detect unmerged reads | Flags sequences containing `UNMERGED` marker |
+| B | Detect natural language | Flags sequences containing natural language words |
 | C | Remove gaps | `"ACGT-ACGT..ACGT"` → `"ACGTACGTACGT"` |
 | D | Trim to anchors | Removes non-anchor characters from ends |
 | E | RNA to DNA conversion | `"ACGU"` → `"ACGT"` |
@@ -28,7 +28,7 @@ This library processes raw DNA/RNA sequences through a multi-stage cleaning pipe
 | `n_fraction` | float | Fraction of N characters |
 | `n_nruns_capped` | int | Number of N-runs that were capped |
 | `gc_content` | float | GC content (based on A/C/G/T only) |
-| `unmerged_reads_detected` | bool | Whether UNMERGED marker was found |
+| `natural_language_detected` | bool | Whether natural language words were found |
 | `ends_trimmed` | bool | Whether ends were trimmed |
 | `gap_and_whitespace_removed` | bool | Whether gaps or whitespace were removed |
 | `nucleotideSequenceID` | string | MD5 of final cleaned sequence |
@@ -41,7 +41,7 @@ The pipeline is configured via `config.yaml`:
 anchor_chars: "ACGTU"       # Valid anchor characters
 anchor_minrun: 8            # Minimum consecutive anchors required
 gap_regex: "[-\\.]"         # Characters to remove as gaps
-marker_regex: "UNMERGED"    # Marker for unmerged reads detection
+natural_language_regex: "UNMERGED"    # Regex for detecting natural language words
 iupac_rna: "ACGTURYSWKMBDHVN"
 iupac_dna: "ACGTRYSWKMBDHVN"
 nrun_cap_from: 6            # Cap N-runs of this length or longer
@@ -122,7 +122,7 @@ java SequenceProcessorDataTest
   - `n_nruns_capped_gt_1.json` - Multiple N-runs capped
   - `non_acgtn_fraction_gt_0_01.json` - Ambiguous IUPAC codes
   - `non_iupac_fraction_gt_0.json` - Non-IUPAC characters
-  - `unmerged_reads_detected.json` - UNMERGED marker sequences
+  - `unmerged_reads_detected.json` - Natural language marker sequences
 
 ## Requirements
 

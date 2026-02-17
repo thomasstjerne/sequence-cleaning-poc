@@ -61,7 +61,7 @@ for (const [category, sequences] of Object.entries(byCategory)) {
       assertEqual(result.sequence, expected.sequence, 'sequence');
       assertEqual(result.sequence_length, expected.sequence_length, 'sequence_length');
       assertEqual(result.n_nruns_capped, expected.n_nruns_capped, 'n_nruns_capped');
-      assertEqual(result.unmerged_reads_detected, expected.unmerged_reads_detected, 'unmerged_reads_detected');
+      assertEqual(result.natural_language_detected, expected.natural_language_detected, 'natural_language_detected');
       assertEqual(result.ends_trimmed, expected.ends_trimmed, 'ends_trimmed');
       assertEqual(result.gap_and_whitespace_removed, expected.gap_and_whitespace_removed, 'gap_and_whitespace_removed');
 

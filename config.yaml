@@ -9,8 +9,8 @@ anchor_strict: "ACGTU"
 # Gap characters to remove (regex pattern)
 gap_regex: "[-\\.]"
 
-# Marker for detecting unmerged reads
-marker_regex: "UNMERGED"
+# Regex for detecting natural language words in sequences
+natural_language_regex: "REVERSE|REV|FWD|FORWARD|MERGED|UNMERGED"
 
 # Valid IUPAC nucleotide codes
 iupac_rna: "ACGTURYSWKMBDHVN"

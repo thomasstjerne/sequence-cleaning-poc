@@ -15,8 +15,8 @@ public class SequenceProcessorTest {
         System.out.println("\n--- Stage A: Whitespace + Uppercase ---");
         testWhitespaceUppercase();
 
-        System.out.println("\n--- Stage B: Unmerged Reads Detection ---");
-        testUnmergedReads();
+        System.out.println("\n--- Stage B: Natural Language Detection ---");
+        testNaturalLanguageDetection();
 
         System.out.println("\n--- Stage C: Gap Removal ---");
         testGapRemoval();
@@ -117,15 +117,15 @@ public class SequenceProcessorTest {
     // Stage B: Unmerged reads detection
     // =========================================================================
 
-    private static void testUnmergedReads() {
+    private static void testNaturalLanguageDetection() {
         test("detects UNMERGED marker", () -> {
             var result = processor.processOneSequence("ACGTACGTUNMERGEDACGTACGT");
-            assertEqual(result.unmergedReadsDetected(), true);
+            assertEqual(result.naturalLanguageDetected(), true);
         });
 
         test("no detection when marker absent", () -> {
             var result = processor.processOneSequence("ACGTACGTACGTACGT");
-            assertEqual(result.unmergedReadsDetected(), false);
+            assertEqual(result.naturalLanguageDetected(), false);
         });
     }
 

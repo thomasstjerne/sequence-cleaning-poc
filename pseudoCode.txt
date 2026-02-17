@@ -17,14 +17,14 @@ PSEUDO_CODE_function_process_one_sequence.txt
 # - n_fraction: (calculated metric) fraction of characters in the cleaned sequence that are 'N'
 # - n_nruns_capped: (calculated metric) number of N-runs that were capped
 # - gc_content: (calculated metric)  GC content of the cleaned sequence (based on A/C/G/T only)
-# - unmerged_reads_detected: boolean flag indicating if unmerged reads were detected based on the presence of a specific marker
+# - natural_language_detected: boolean flag indicating if natural language words were detected based on the presence of configured patterns
 # - ends_trimmed: boolean flag indicating if the sequence was trimmed at the ends based on anchor detection
 # - gap_and_whitespace_removed: boolean flag indicating if any gaps or whitespace were removed during cleaning
 # - md5: MD5 hash of the raw sequence after stripping to IUPAC RNA characters (mimicking current GBIF behavior for development purpose) # NB: this is not the MD5 of the original raw sequence, but rather the MD5 of the raw sequence after a specific transformation (strip to IUPAC RNA and uppercase) . Do not include in final function.
 # - nucleotideSequenceID: MD5 hash of the final cleaned sequence # NB: this is the MD5 of the final cleaned sequence. This is the value that is meant to be used for indexing sequences in the GBIF occurrence index.
 
 # function process_one_sequence(seq, config):
-    # config: anchor_chars, anchor_minrun, gap_regex, marker_regex,
+    # config: anchor_chars, anchor_minrun, gap_regex, natural_language_regex,
     #         iupac_dna, iupac_rna, nrun_cap_from, nrun_cap_to
 
 # Used config: "sequence_cleaning_config.json" 
@@ -33,7 +33,7 @@ PSEUDO_CODE_function_process_one_sequence.txt
 #   "anchor_minrun": 8,
 #   "anchor_strict": "ACGTU",
 #   "gap_regex": "[-\\.]",
-#   "marker_regex": "UNMERGED",
+#   "natural_language_regex": "UNMERGED",
 #   "iupac_rna": "ACGTURYSWKMBDHVN",
 #   "iupac_dna": "ACGTRYSWKMBDHVN",
 #   "nrun_cap_from": 6,
@@ -48,8 +48,8 @@ PSEUDO_CODE_function_process_one_sequence.txt
     s1 = to_uppercase(s0)
 
     # Stage B: detect unmerged reads
-    example: "ACGTUNMERGEDACGT" -> unmerged_reads_detected = TRUE
-    unmerged_reads_detected = contains_regex(s1, config.marker_regex)
+    example: "ACGTUNMERGEDACGT" -> natural_language_detected = TRUE
+    natural_language_detected = contains_regex(s1, config.natural_language_regex)
 
     # Stage C: remove gaps
     # example: "ACGT-ACGT..ACGT" -> "ACGTACGTACGT"
@@ -111,7 +111,7 @@ PSEUDO_CODE_function_process_one_sequence.txt
       n_fraction: n_fraction,
       n_nruns_capped: n_nruns_capped,
       gc_content: gc_content,
-      unmerged_reads_detected: unmerged_reads_detected,
+      natural_language_detected: natural_language_detected,
       ends_trimmed: ends_trimmed,
       gap_and_whitespace_removed: gap_and_whitespace_removed,
       md5: md5_raw,

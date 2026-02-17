@@ -122,16 +122,16 @@ test('removes tabs and newlines', () => {
 // Stage B: Unmerged reads detection
 // =============================================================================
 
-console.log('\n--- Stage B: Unmerged Reads Detection ---');
+console.log('\n--- Stage B: Natural Language Detection ---');
 
 test('detects UNMERGED marker', () => {
   const result = processOneSequence('ACGTACGTUNMERGEDACGTACGT');
-  assert.strictEqual(result.unmerged_reads_detected, true);
+  assert.strictEqual(result.natural_language_detected, true);
 });
 
 test('no detection when marker absent', () => {
   const result = processOneSequence('ACGTACGTACGTACGT');
-  assert.strictEqual(result.unmerged_reads_detected, false);
+  assert.strictEqual(result.natural_language_detected, false);
 });
 
 // =============================================================================

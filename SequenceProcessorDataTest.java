@@ -44,7 +44,7 @@ public class SequenceProcessorDataTest {
                 assertEqual(result.sequence(), tc.expectedCleanSequence, "sequence");
                 assertEqual(result.sequenceLength(), tc.expectedCleanLength, "sequence_length");
                 assertEqual(result.nNrunsCapped(), tc.expectedNrunsCapped, "n_nruns_capped");
-                assertEqual(result.unmergedReadsDetected(), tc.expectedUnmergedReadsDetected, "unmerged_reads_detected");
+                assertEqual(result.naturalLanguageDetected(), tc.expectedNaturalLanguageDetected, "natural_language_detected");
                 assertEqual(result.endsTrimmed(), tc.expectedEndsTrimmed, "ends_trimmed");
                 assertEqual(result.gapAndWhitespaceRemoved(), tc.expectedGapAndWhitespaceRemoved, "gap_and_whitespace_removed");
 
@@ -137,7 +137,7 @@ public class SequenceProcessorDataTest {
         Double expectedNFraction;
         int expectedNrunsCapped;
         Double expectedGcContent;
-        boolean expectedUnmergedReadsDetected;
+        boolean expectedNaturalLanguageDetected;
         boolean expectedEndsTrimmed;
         boolean expectedGapAndWhitespaceRemoved;
     }
@@ -238,7 +238,7 @@ public class SequenceProcessorDataTest {
             tc.expectedNFraction = extractDouble(expectedJson, "n_fraction");
             tc.expectedNrunsCapped = extractInt(expectedJson, "n_nruns_capped");
             tc.expectedGcContent = extractDouble(expectedJson, "gc_content");
-            tc.expectedUnmergedReadsDetected = extractBoolean(expectedJson, "unmerged_reads_detected");
+            tc.expectedNaturalLanguageDetected = extractBoolean(expectedJson, "natural_language_detected");
             tc.expectedEndsTrimmed = extractBoolean(expectedJson, "ends_trimmed");
             tc.expectedGapAndWhitespaceRemoved = extractBoolean(expectedJson, "gap_and_whitespace_removed");
         }

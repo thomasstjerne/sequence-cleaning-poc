@@ -14,7 +14,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3347107438016529,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -31,7 +31,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4583333333333333,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -48,7 +48,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.46394984326018807,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -65,7 +65,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.37872340425531914,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -82,7 +82,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3793103448275862,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -99,7 +99,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3235294117647059,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -116,7 +116,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4251012145748988,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -133,7 +133,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.42857142857142855,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -150,7 +150,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.47707736389684813,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -167,7 +167,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.30246913580246915,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -184,7 +184,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3650190114068441,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -201,7 +201,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.31932773109243695,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -218,7 +218,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4473684210526316,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -235,7 +235,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.41117478510028654,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -252,7 +252,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.47703703703703704,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -269,7 +269,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.46579804560260585,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -286,7 +286,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3951612903225806,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -303,7 +303,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.46107784431137727,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -320,7 +320,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.42012779552715657,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -337,7 +337,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5217391304347826,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -354,7 +354,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.39215686274509803,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -371,7 +371,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.35918367346938773,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -388,7 +388,7 @@
         "n_fraction": 0.0017889087656529517,
         "n_nruns_capped": 0,
         "gc_content": 0.5103697024346258,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -405,7 +405,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.33766233766233766,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -422,7 +422,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3404255319148936,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -439,7 +439,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4076923076923077,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -456,7 +456,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.44273743016759776,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -473,7 +473,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3363914373088685,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -490,7 +490,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2838427947598253,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -507,7 +507,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4909688013136289,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -524,7 +524,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5691823899371069,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -541,7 +541,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4605678233438486,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -558,7 +558,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.42152466367713004,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -575,7 +575,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5221579961464354,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -592,7 +592,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.351931330472103,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -609,7 +609,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5234899328859061,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -626,7 +626,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3261538461538461,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -643,7 +643,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4819277108433735,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -660,7 +660,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3706896551724138,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -677,7 +677,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5288135593220339,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -694,7 +694,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3393939393939394,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -711,7 +711,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3981762917933131,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -728,7 +728,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.49550898203592814,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -745,7 +745,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3490566037735849,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -762,7 +762,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.32644628099173556,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -779,7 +779,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4462809917355372,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -796,7 +796,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.33024691358024694,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -813,7 +813,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3765432098765432,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -830,7 +830,7 @@
         "n_fraction": 0.004,
         "n_nruns_capped": 0,
         "gc_content": 0.44367176634214184,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -847,7 +847,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.39919354838709675,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -864,7 +864,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5019157088122606,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -881,7 +881,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2857142857142857,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -898,7 +898,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3888888888888889,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -915,7 +915,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3993231810490694,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -932,7 +932,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.345679012345679,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -949,7 +949,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4482758620689655,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -966,7 +966,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.38961038961038963,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -983,7 +983,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5218855218855218,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1000,7 +1000,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4575757575757576,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1017,7 +1017,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4300341296928328,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1034,7 +1034,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.38549618320610685,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1051,7 +1051,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4234527687296417,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1068,7 +1068,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.40425531914893614,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1085,7 +1085,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.36363636363636365,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1102,7 +1102,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5258064516129032,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1119,7 +1119,7 @@
         "n_fraction": 0.0010582010582010583,
         "n_nruns_capped": 0,
         "gc_content": 0.28281750266808964,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -1136,7 +1136,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3191489361702128,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1153,7 +1153,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.44129554655870445,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1170,7 +1170,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3025210084033613,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1187,7 +1187,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.46503496503496505,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -1204,7 +1204,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4493927125506073,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1221,7 +1221,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3271604938271605,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1238,7 +1238,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.519650655021834,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1255,7 +1255,7 @@
         "n_fraction": 0.0009624639076034649,
         "n_nruns_capped": 0,
         "gc_content": 0.35082604470359574,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -1272,7 +1272,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3191489361702128,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1289,7 +1289,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3515151515151515,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1306,7 +1306,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5205479452054794,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1323,7 +1323,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4977578475336323,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1340,7 +1340,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4599236641221374,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1357,7 +1357,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3198757763975155,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1374,7 +1374,7 @@
         "n_fraction": 0.0016207455429497568,
         "n_nruns_capped": 0,
         "gc_content": 0.4215686274509804,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1391,7 +1391,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5387755102040817,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1408,7 +1408,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2962962962962963,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1425,7 +1425,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.46218487394957986,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1442,7 +1442,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3776435045317221,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1459,7 +1459,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4171974522292994,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1476,7 +1476,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.31384615384615383,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1493,7 +1493,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3558282208588957,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1510,7 +1510,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5017543859649123,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1527,7 +1527,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5887728459530026,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -1544,7 +1544,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3484848484848485,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1561,7 +1561,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.44694533762057875,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1578,7 +1578,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.36466165413533835,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1595,7 +1595,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4241486068111455,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1612,7 +1612,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.34,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1629,7 +1629,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.34763948497854075,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1646,7 +1646,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5209790209790209,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1663,7 +1663,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4637223974763407,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1680,7 +1680,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.49473684210526314,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1697,7 +1697,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.37898089171974525,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1714,7 +1714,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.30864197530864196,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1731,7 +1731,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3333333333333333,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1748,7 +1748,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.33641975308641975,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1765,7 +1765,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3512396694214876,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1782,7 +1782,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4107142857142857,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1799,7 +1799,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3395061728395062,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1816,7 +1816,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3247863247863248,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1833,7 +1833,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.35390946502057613,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1850,7 +1850,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3727598566308244,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1867,7 +1867,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.38144329896907214,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1884,7 +1884,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.43197278911564624,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1901,7 +1901,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3697478991596639,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1918,7 +1918,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.39919354838709675,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1935,7 +1935,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.46779661016949153,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1952,7 +1952,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5021097046413502,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1969,7 +1969,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3459915611814346,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1986,7 +1986,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4878444084278768,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2003,7 +2003,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5912698412698413,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2020,7 +2020,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3406113537117904,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2037,7 +2037,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.33905579399141633,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2054,7 +2054,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3512396694214876,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2071,7 +2071,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.43543543543543545,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2088,7 +2088,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3308270676691729,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2105,7 +2105,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.519434628975265,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2122,7 +2122,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3487394957983193,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2139,7 +2139,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.34177215189873417,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2156,7 +2156,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4012158054711246,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2173,7 +2173,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3852080123266564,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -2190,7 +2190,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.36324786324786323,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2207,7 +2207,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.32340425531914896,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2224,7 +2224,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5637860082304527,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -2241,7 +2241,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3067226890756303,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2258,7 +2258,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3803418803418803,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2275,7 +2275,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3076923076923077,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2292,7 +2292,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.33613445378151263,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2309,7 +2309,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.41883116883116883,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2326,7 +2326,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.41875,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2343,7 +2343,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3068992862807296,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2360,7 +2360,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4721189591078067,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -2377,7 +2377,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3507692307692308,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2394,7 +2394,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5245901639344263,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2411,7 +2411,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.49927849927849927,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -2428,7 +2428,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4014084507042254,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2445,7 +2445,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.42857142857142855,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2462,7 +2462,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.35537190082644626,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2479,7 +2479,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4440677966101695,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2496,7 +2496,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3076923076923077,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2513,7 +2513,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4309623430962343,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2530,7 +2530,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.33760683760683763,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2547,7 +2547,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4542483660130719,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2564,7 +2564,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2897959183673469,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2581,7 +2581,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5252525252525253,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2598,7 +2598,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3319672131147541,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2615,7 +2615,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.45016077170418006,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2632,7 +2632,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4311594202898551,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2649,7 +2649,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.35454545454545455,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2666,7 +2666,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5252525252525253,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2683,7 +2683,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3575757575757576,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2700,7 +2700,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4897260273972603,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2717,7 +2717,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3651452282157676,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2734,7 +2734,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4115720524017467,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -2751,7 +2751,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.39457831325301207,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2768,7 +2768,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4187725631768953,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2785,7 +2785,7 @@
         "n_fraction": 0.003246753246753247,
         "n_nruns_capped": 0,
         "gc_content": 0.3737704918032787,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -2802,7 +2802,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4387755102040816,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2819,7 +2819,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.30864197530864196,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2836,7 +2836,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.31761006289308175,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -2853,7 +2853,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5290322580645161,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2870,7 +2870,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3974358974358974,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2887,7 +2887,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4411764705882353,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2904,7 +2904,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2921,7 +2921,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.30038022813688214,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2938,7 +2938,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3525835866261398,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2955,7 +2955,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.33941605839416056,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2972,7 +2972,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.403030303030303,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -2989,7 +2989,7 @@
         "n_fraction": 0.0031397174254317113,
         "n_nruns_capped": 0,
         "gc_content": 0.43569131832797425,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -3006,7 +3006,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.31790123456790126,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3023,7 +3023,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3117816091954023,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -3040,7 +3040,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3911290322580645,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3057,7 +3057,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5218855218855218,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3074,7 +3074,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3734567901234568,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3091,7 +3091,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.474025974025974,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3108,7 +3108,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3907563025210084,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3125,7 +3125,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4548872180451128,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3142,7 +3142,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3944954128440367,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3159,7 +3159,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.43343653250773995,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3176,7 +3176,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5007032348804501,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -3193,7 +3193,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.44621513944223107,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3210,7 +3210,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.42424242424242425,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3227,7 +3227,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.41411042944785276,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3244,7 +3244,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4276094276094276,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3261,7 +3261,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3549382716049383,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3278,7 +3278,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3403361344537815,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3295,7 +3295,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3931888544891641,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3312,7 +3312,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.35185185185185186,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3329,7 +3329,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3803418803418803,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3346,7 +3346,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.36728395061728397,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3363,7 +3363,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4078549848942598,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -3380,7 +3380,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.44680851063829785,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },

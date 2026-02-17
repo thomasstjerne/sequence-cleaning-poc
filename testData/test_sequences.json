@@ -13,7 +13,7 @@
         "n_fraction": 0.0017889087656529517,
         "n_nruns_capped": 0,
         "gc_content": 0.5103697024346258,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -30,7 +30,7 @@
         "n_fraction": 0.003246753246753247,
         "n_nruns_capped": 0,
         "gc_content": 0.3737704918032787,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -47,7 +47,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5912698412698413,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -64,7 +64,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5637860082304527,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -81,7 +81,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5887728459530026,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -98,7 +98,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.5221579961464354,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -115,7 +115,7 @@
         "n_fraction": 0.0010582010582010583,
         "n_nruns_capped": 0,
         "gc_content": 0.28281750266808964,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -132,7 +132,7 @@
         "n_fraction": 0.0009624639076034649,
         "n_nruns_capped": 0,
         "gc_content": 0.35082604470359574,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -149,7 +149,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.400974025974026,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -166,7 +166,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3732283464566929,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -183,7 +183,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.39477726574500765,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -200,7 +200,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.37816455696202533,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -217,7 +217,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3929712460063898,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -234,7 +234,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4488549618320611,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -251,7 +251,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.44224422442244227,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -268,7 +268,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.32575757575757575,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -285,7 +285,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3903281519861831,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -302,7 +302,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4192073170731707,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -319,7 +319,7 @@
         "n_fraction": 0.0015220700152207,
         "n_nruns_capped": 0,
         "gc_content": 0.41743119266055045,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -336,7 +336,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4146341463414634,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -353,7 +353,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4174917491749175,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -370,7 +370,7 @@
         "n_fraction": 0.003048780487804878,
         "n_nruns_capped": 0,
         "gc_content": 0.41960183767228176,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -387,7 +387,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.42073170731707316,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -404,7 +404,7 @@
         "n_fraction": 0.010582010582010581,
         "n_nruns_capped": 0,
         "gc_content": 0.5,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -421,7 +421,7 @@
         "n_fraction": 0.010526315789473684,
         "n_nruns_capped": 0,
         "gc_content": 0.4645390070921986,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -438,7 +438,7 @@
         "n_fraction": 0.013440860215053764,
         "n_nruns_capped": 0,
         "gc_content": 0.49318801089918257,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -455,7 +455,7 @@
         "n_fraction": 0.013029315960912053,
         "n_nruns_capped": 0,
         "gc_content": 0.44224422442244227,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -472,7 +472,7 @@
         "n_fraction": 0.04979253112033195,
         "n_nruns_capped": 0,
         "gc_content": 0.4519650655021834,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -489,7 +489,7 @@
         "n_fraction": 0.015544041450777202,
         "n_nruns_capped": 0,
         "gc_content": 0.2929824561403509,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -506,7 +506,7 @@
         "n_fraction": 0.012237762237762238,
         "n_nruns_capped": 0,
         "gc_content": 0.32212389380530976,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -523,7 +523,7 @@
         "n_fraction": 0.039334341906202726,
         "n_nruns_capped": 0,
         "gc_content": 0.4393700787401575,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -540,7 +540,7 @@
         "n_fraction": 0.04784688995215311,
         "n_nruns_capped": 2,
         "gc_content": 0.3417085427135678,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -557,7 +557,7 @@
         "n_fraction": 0.014018691588785047,
         "n_nruns_capped": 0,
         "gc_content": 0.3222748815165877,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -574,7 +574,7 @@
         "n_fraction": 0.026373626373626374,
         "n_nruns_capped": 1,
         "gc_content": 0.2979683972911964,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -591,7 +591,7 @@
         "n_fraction": 0.013303769401330377,
         "n_nruns_capped": 1,
         "gc_content": 0.2876404494382023,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -608,7 +608,7 @@
         "n_fraction": 0.030837004405286344,
         "n_nruns_capped": 1,
         "gc_content": 0.3068181818181818,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -625,7 +625,7 @@
         "n_fraction": 0.013303769401330377,
         "n_nruns_capped": 1,
         "gc_content": 0.2853932584269663,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -642,7 +642,7 @@
         "n_fraction": 0.030973451327433628,
         "n_nruns_capped": 1,
         "gc_content": 0.3082191780821918,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -659,7 +659,7 @@
         "n_fraction": 0.008665511265164644,
         "n_nruns_capped": 1,
         "gc_content": 0.42832167832167833,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -676,7 +676,7 @@
         "n_fraction": 0.008665511265164644,
         "n_nruns_capped": 1,
         "gc_content": 0.42832167832167833,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -693,7 +693,7 @@
         "n_fraction": 0.009917355371900827,
         "n_nruns_capped": 1,
         "gc_content": 0.4557595993322204,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -710,7 +710,7 @@
         "n_fraction": 0.008361204013377926,
         "n_nruns_capped": 1,
         "gc_content": 0.4350758853288364,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -727,7 +727,7 @@
         "n_fraction": 0.008361204013377926,
         "n_nruns_capped": 1,
         "gc_content": 0.4350758853288364,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -744,7 +744,7 @@
         "n_fraction": 0.02927927927927928,
         "n_nruns_capped": 1,
         "gc_content": 0.3039443155452436,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -761,7 +761,7 @@
         "n_fraction": 0.015486725663716814,
         "n_nruns_capped": 1,
         "gc_content": 0.298876404494382,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -778,7 +778,7 @@
         "n_fraction": 0.016166281755196306,
         "n_nruns_capped": 1,
         "gc_content": 0.2934272300469484,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -795,7 +795,7 @@
         "n_fraction": 0.07718120805369127,
         "n_nruns_capped": 3,
         "gc_content": 0.2727272727272727,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -812,7 +812,7 @@
         "n_fraction": 0.001567398119122257,
         "n_nruns_capped": 0,
         "gc_content": 0.28728414442700156,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -829,7 +829,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2732049036777583,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -846,7 +846,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.36609336609336607,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -863,7 +863,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.35872235872235875,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -880,7 +880,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.36117936117936117,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -897,7 +897,7 @@
         "n_fraction": 0.001594896331738437,
         "n_nruns_capped": 0,
         "gc_content": 0.33865814696485624,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -914,7 +914,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3464373464373464,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -931,7 +931,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.30933333333333335,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -948,7 +948,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4176904176904177,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -965,7 +965,7 @@
         "n_fraction": 0.002178649237472767,
         "n_nruns_capped": 0,
         "gc_content": 0.3406113537117904,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -982,7 +982,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.32432432432432434,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -999,7 +999,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.29238329238329236,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -1016,7 +1016,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.28013029315960913,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -1033,7 +1033,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.32678132678132676,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -1050,7 +1050,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2768729641693811,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -1067,7 +1067,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2905844155844156,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1084,7 +1084,7 @@
         "n_fraction": 0.004761904761904762,
         "n_nruns_capped": 0,
         "gc_content": 0.2551834130781499,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -1101,7 +1101,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3261494252873563,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -1118,7 +1118,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3281027104136947,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -1135,7 +1135,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2984189723320158,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -1152,7 +1152,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.35331230283911674,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -1169,7 +1169,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.31790123456790126,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -1186,7 +1186,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.450229709035222,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -1203,7 +1203,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.44801223241590216,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -1220,7 +1220,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.450229709035222,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -1237,7 +1237,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.44954128440366975,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -1254,7 +1254,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4498432601880878,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -1271,7 +1271,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.39477726574500765,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -1288,7 +1288,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.39663093415007655,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": false
       },
@@ -1305,7 +1305,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2811550151975684,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1322,7 +1322,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2811550151975684,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1339,7 +1339,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2872340425531915,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1356,7 +1356,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2796352583586626,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1373,7 +1373,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2796352583586626,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1390,7 +1390,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2765957446808511,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1407,7 +1407,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.27811550151975684,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1424,7 +1424,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2826747720364742,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1441,7 +1441,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.28419452887537994,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1458,7 +1458,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2735562310030395,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1475,7 +1475,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2826747720364742,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1492,7 +1492,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.28419452887537994,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1509,7 +1509,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2765957446808511,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1526,7 +1526,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.2735562310030395,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1543,7 +1543,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.7224770642201835,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1560,7 +1560,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.7199558985667034,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1577,7 +1577,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.7390029325513197,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1594,7 +1594,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.7291666666666666,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": false
       },
@@ -1611,7 +1611,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.6561338289962825,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -1628,7 +1628,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.6561338289962825,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -1645,7 +1645,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.6561338289962825,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -1662,7 +1662,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.6561338289962825,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -1679,7 +1679,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.6561338289962825,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -1696,7 +1696,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.6561338289962825,
-        "unmerged_reads_detected": false,
+        "natural_language_detected": false,
         "ends_trimmed": false,
         "gap_and_whitespace_removed": true
       },
@@ -1713,7 +1713,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4819277108433735,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1730,7 +1730,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3319672131147541,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1747,7 +1747,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4276094276094276,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1764,7 +1764,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3803418803418803,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1781,7 +1781,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.3525835866261398,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1798,7 +1798,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.33905579399141633,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1815,7 +1815,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4387755102040816,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1832,7 +1832,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4311594202898551,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1849,7 +1849,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.4548872180451128,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },
@@ -1866,7 +1866,7 @@
         "n_fraction": 0,
         "n_nruns_capped": 0,
         "gc_content": 0.45016077170418006,
-        "unmerged_reads_detected": true,
+        "natural_language_detected": true,
         "ends_trimmed": true,
         "gap_and_whitespace_removed": true
       },

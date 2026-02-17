@@ -23,7 +23,7 @@ public class SequenceProcessor {
         int anchorMinrun,
         String anchorStrict,
         String gapRegex,
-        String markerRegex,
+        String naturalLanguageRegex,
         String iupacRna,
         String iupacDna,
         int nrunCapFrom,
@@ -63,7 +63,7 @@ public class SequenceProcessor {
                 Integer.parseInt(values.getOrDefault("anchor_minrun", "8")),
                 values.getOrDefault("anchor_strict", "ACGTU"),
                 values.getOrDefault("gap_regex", "[-\\.]"),
-                values.getOrDefault("marker_regex", "UNMERGED"),
+                values.getOrDefault("natural_language_regex", "UNMERGED"),
                 values.getOrDefault("iupac_rna", "ACGTURYSWKMBDHVN"),
                 values.getOrDefault("iupac_dna", "ACGTRYSWKMBDHVN"),
                 Integer.parseInt(values.getOrDefault("nrun_cap_from", "6")),
@@ -126,7 +126,7 @@ public class SequenceProcessor {
         Double nFraction,
         int nNrunsCapped,
         Double gcContent,
-        boolean unmergedReadsDetected,
+        boolean naturalLanguageDetected,
         boolean endsTrimmed,
         boolean gapAndWhitespaceRemoved,
         String nucleotideSequenceID
@@ -166,10 +166,10 @@ public class SequenceProcessor {
         String s0 = raw.replaceAll("\\s+", "");
         String s1 = s0.toUpperCase();
 
-        // Stage B: detect unmerged reads
-        // example: "ACGTUNMERGEDACGT" -> unmergedReadsDetected = true
-        Pattern markerPattern = Pattern.compile(config.markerRegex());
-        boolean unmergedReadsDetected = markerPattern.matcher(s1).find();
+        // Stage B: detect natural language
+        // example: "ACGTUNMERGEDACGT" -> naturalLanguageDetected = true
+        Pattern naturalLanguagePattern = Pattern.compile(config.naturalLanguageRegex());
+        boolean naturalLanguageDetected = naturalLanguagePattern.matcher(s1).find();
 
         // Stage C: remove gaps
         // example: "ACGT-ACGT..ACGT" -> "ACGTACGTACGT"
@@ -228,7 +228,7 @@ public class SequenceProcessor {
             nFraction,
             nNrunsCapped,
             gcContent,
-            unmergedReadsDetected,
+            naturalLanguageDetected,
             endsTrimmed,
             gapAndWhitespaceRemoved,
             nucleotideSequenceID
