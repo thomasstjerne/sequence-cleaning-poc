@@ -47,6 +47,7 @@ public class SequenceProcessorDataTest {
                 assertEqual(result.naturalLanguageDetected(), tc.expectedNaturalLanguageDetected, "natural_language_detected");
                 assertEqual(result.endsTrimmed(), tc.expectedEndsTrimmed, "ends_trimmed");
                 assertEqual(result.gapAndWhitespaceRemoved(), tc.expectedGapAndWhitespaceRemoved, "gap_and_whitespace_removed");
+                assertEqual(result.invalid(), tc.expectedInvalid, "invalid");
 
                 assertClose(result.nonIupacFraction(), tc.expectedNonIupacFraction, "non_iupac_fraction");
                 assertClose(result.nonAcgtnFraction(), tc.expectedNonAcgtnFraction, "non_acgtn_fraction");
@@ -140,6 +141,7 @@ public class SequenceProcessorDataTest {
         boolean expectedNaturalLanguageDetected;
         boolean expectedEndsTrimmed;
         boolean expectedGapAndWhitespaceRemoved;
+        boolean expectedInvalid;
     }
 
     private static List<TestCase> parseTestCases(String json) {
@@ -241,6 +243,7 @@ public class SequenceProcessorDataTest {
             tc.expectedNaturalLanguageDetected = extractBoolean(expectedJson, "natural_language_detected");
             tc.expectedEndsTrimmed = extractBoolean(expectedJson, "ends_trimmed");
             tc.expectedGapAndWhitespaceRemoved = extractBoolean(expectedJson, "gap_and_whitespace_removed");
+            tc.expectedInvalid = extractBoolean(expectedJson, "invalid");
         }
 
         return tc;

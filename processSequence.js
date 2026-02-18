@@ -233,10 +233,11 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
   const nucleotideSequenceID = md5(s6);
 
   // Output object
+  const invalid = (nonIupacFraction !== null && nonIupacFraction > 0) || naturalLanguageDetected;
   return {
     seq_id: seqId,
     raw_sequence: raw,
-    sequence: s6,
+    sequence: invalid ? null : s6,
     sequence_length: sequenceLength,
     non_iupac_fraction: nonIupacFraction,
     non_acgtn_fraction: nonAcgtnFraction,
@@ -246,7 +247,8 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
     natural_language_detected: naturalLanguageDetected,
     ends_trimmed: endsTrimmed,
     gap_and_whitespace_removed: gapAndWhitespaceRemoved,
-    nucleotide_sequence_id: nucleotideSequenceID
+    nucleotide_sequence_id: invalid ? null : nucleotideSequenceID,
+    invalid
   };
 }
 

@@ -129,7 +129,8 @@ public class SequenceProcessor {
         boolean naturalLanguageDetected,
         boolean endsTrimmed,
         boolean gapAndWhitespaceRemoved,
-        String nucleotideSequenceID
+        String nucleotideSequenceID,
+        boolean invalid
     ) {}
 
     /**
@@ -218,10 +219,13 @@ public class SequenceProcessor {
         // MD5 of the final cleaned sequence
         String nucleotideSequenceID = md5(s6);
 
+        // Invalid if non-IUPAC characters found or natural language detected
+        boolean invalid = (nonIupacFraction != null && nonIupacFraction > 0) || naturalLanguageDetected;
+
         return new Result(
             seqId,
             raw,
-            s6,
+            invalid ? null : s6,
             sequenceLength,
             nonIupacFraction,
             nonAcgtnFraction,
@@ -231,7 +235,8 @@ public class SequenceProcessor {
             naturalLanguageDetected,
             endsTrimmed,
             gapAndWhitespaceRemoved,
-            nucleotideSequenceID
+            invalid ? null : nucleotideSequenceID,
+            invalid
         );
     }
 

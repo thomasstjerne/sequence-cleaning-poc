@@ -64,6 +64,7 @@ for (const [category, sequences] of Object.entries(byCategory)) {
       assertEqual(result.natural_language_detected, expected.natural_language_detected, 'natural_language_detected');
       assertEqual(result.ends_trimmed, expected.ends_trimmed, 'ends_trimmed');
       assertEqual(result.gap_and_whitespace_removed, expected.gap_and_whitespace_removed, 'gap_and_whitespace_removed');
+      assertEqual(result.invalid, expected.invalid, 'invalid');
 
       // Numeric comparisons with tolerance
       assertClose(result.non_iupac_fraction, expected.non_iupac_fraction, 'non_iupac_fraction');
