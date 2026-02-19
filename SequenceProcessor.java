@@ -183,41 +183,45 @@ public class SequenceProcessor {
         // example: "ACGTUACGTU" -> "ACGTTACGTT"
         String s3 = s2.replace("U", "T");
 
-        // Stage E: trim to anchors (front & back)
+        // Stage E: ? -> N
+        // example: "ACGT?ACGT" -> "ACGTNACGT"
+        String s4 = s3.replace("?", "N");
+
+        // Stage F: trim to anchors (front & back)
         // example: with anchor_chars="ACGTU" and anchor_minrun=8:
         // "THISISMYGBIFSEQUENCEACGTACGTACGTNNNNNENDOFSEQUENCE" -> "ACGTACGTACGT"
-        TrimResult tFirst = trimToFirstAnchorOrWipe(s3, config.anchorChars(), config.anchorMinrun());
-        String s4 = tFirst.s();
-        TrimResult tLast = trimToLastAnchor(s4, config.anchorChars(), config.anchorMinrun());
-        String s5 = tLast.s();
+        TrimResult tFirst = trimToFirstAnchorOrWipe(s4, config.anchorChars(), config.anchorMinrun());
+        String s5 = tFirst.s();
+        TrimResult tLast = trimToLastAnchor(s5, config.anchorChars(), config.anchorMinrun());
+        String s6 = tLast.s();
         boolean endsTrimmed = tFirst.did() || tLast.did();
 
-        // Stage F: cap N-runs (apply N-run cap to s5 -> s6)
+        // Stage G: cap N-runs (apply N-run cap to s6 -> s7)
         // example: with nrun_cap_from=6 and nrun_cap_to=5:
         // "ACGTACGTNNNNNNNNNNNNNNACGTACGTNNNNNNNNNACGTACGT" -> "ACGTACGTNNNNNACGTACGTNNNNNACGTACGT"
         String capPattern = "N{" + config.nrunCapFrom() + ",}";
-        int nNrunsCapped = countRegex(s5, capPattern);
+        int nNrunsCapped = countRegex(s6, capPattern);
         String capToStr = "N".repeat(config.nrunCapTo());
-        String s6 = s5.replaceAll(capPattern, capToStr);
+        String s7 = s6.replaceAll(capPattern, capToStr);
 
-        // Additional metrics (on s6)
-        int sequenceLength = s6.length();
-        int nCount = countFixed(s6, 'N');
+        // Additional metrics (on s7)
+        int sequenceLength = s7.length();
+        int nCount = countFixed(s7, 'N');
         Double nFraction = sequenceLength > 0 ? (double) nCount / sequenceLength : null;
 
-        // Compute ambiguous/non-IUPAC counts AFTER capping (on s6)
-        int nonAcgtnCount = countRegex(s6, "[^ACGTN]");
-        int nonIupacCount = countRegex(s6, "[^" + config.iupacDna() + "]");
+        // Compute ambiguous/non-IUPAC counts AFTER capping (on s7)
+        int nonAcgtnCount = countRegex(s7, "[^ACGTN]");
+        int nonIupacCount = countRegex(s7, "[^" + config.iupacDna() + "]");
         Double nonACGTNFraction = sequenceLength > 0 ? (double) nonAcgtnCount / sequenceLength : null;
         Double nonIupacFraction = sequenceLength > 0 ? (double) nonIupacCount / sequenceLength : null;
 
         // GC content (A/C/G/T only in denominator)
-        int gc = countRegex(s6, "[GC]");
-        int acgt = countRegex(s6, "[ACGT]");
+        int gc = countRegex(s7, "[GC]");
+        int acgt = countRegex(s7, "[ACGT]");
         Double gcContent = acgt > 0 ? (double) gc / acgt : null;
 
         // MD5 of the final cleaned sequence
-        String nucleotideSequenceID = md5(s6);
+        String nucleotideSequenceID = md5(s7);
 
         // Invalid if non-IUPAC characters found or natural language detected
         boolean invalid = (nonIupacFraction != null && nonIupacFraction > 0) || naturalLanguageDetected;
@@ -225,7 +229,7 @@ public class SequenceProcessor {
         return new Result(
             seqId,
             raw,
-            invalid ? null : s6,
+            invalid ? null : s7,
             sequenceLength,
             nonIupacFraction,
             nonACGTNFraction,

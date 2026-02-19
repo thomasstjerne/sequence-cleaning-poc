@@ -24,10 +24,13 @@ public class SequenceProcessorTest {
         System.out.println("\n--- Stage D: U to T Conversion ---");
         testUtoTConversion();
 
-        System.out.println("\n--- Stage E: Anchor Trimming ---");
+        System.out.println("\n--- Stage E: Question Mark to N ---");
+        testQuestionMarkToN();
+
+        System.out.println("\n--- Stage F: Anchor Trimming ---");
         testAnchorTrimming();
 
-        System.out.println("\n--- Stage F: N-run Capping ---");
+        System.out.println("\n--- Stage G: N-run Capping ---");
         testNrunCapping();
 
         System.out.println("\n--- Metrics ---");
@@ -168,7 +171,18 @@ public class SequenceProcessorTest {
     }
 
     // =========================================================================
-    // Stage E: Anchor trimming
+    // Stage E: Question mark to N
+    // =========================================================================
+
+    private static void testQuestionMarkToN() {
+        test("converts ? to N", () -> {
+            var result = processor.processOneSequence("ACGTACGT?ACGTACGT");
+            assertEqual(result.sequence(), "ACGTACGTNACGTACGT");
+        });
+    }
+
+    // =========================================================================
+    // Stage F: Anchor trimming
     // =========================================================================
 
     private static void testAnchorTrimming() {
@@ -204,7 +218,7 @@ public class SequenceProcessorTest {
     }
 
     // =========================================================================
-    // Stage F: N-run capping
+    // Stage G: N-run capping
     // =========================================================================
 
     private static void testNrunCapping() {

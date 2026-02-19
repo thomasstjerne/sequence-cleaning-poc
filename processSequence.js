@@ -196,48 +196,52 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
   // example: "ACGTUACGTU" -> "ACGTTACGTT"
   const s3 = s2.replace(/U/g, "T");
 
-  // Stage E: trim to anchors (front & back)
+  // Stage E: ? -> N
+  // example: "ACGT?ACGT" -> "ACGTNACGT"
+  const s4 = s3.replace(/\?/g, "N");
+
+  // Stage F: trim to anchors (front & back)
   // example: with anchor_chars="ACGTU" and anchor_minrun=8:
   // "THISISMYGBIFSEQUENCEACGTACGTACGTNNNNNENDOFSEQUENCE" -> "ACGTACGTACGT"
-  const tFirst = trimToFirstAnchorOrWipe(s3, config.anchor_chars, config.anchor_minrun);
-  const s4 = tFirst.s;
-  const tLast = trimToLastAnchor(s4, config.anchor_chars, config.anchor_minrun);
-  const s5 = tLast.s;
+  const tFirst = trimToFirstAnchorOrWipe(s4, config.anchor_chars, config.anchor_minrun);
+  const s5 = tFirst.s;
+  const tLast = trimToLastAnchor(s5, config.anchor_chars, config.anchor_minrun);
+  const s6 = tLast.s;
   const endsTrimmed = tFirst.did || tLast.did;
 
-  // Stage F: cap N-runs (apply N-run cap to s5 -> s6)
+  // Stage G: cap N-runs (apply N-run cap to s6 -> s7)
   // example: with nrun_cap_from=6 and nrun_cap_to=5:
   // "ACGTACGTNNNNNNNNNNNNNNACGTACGTNNNNNNNNNACGTACGT" -> "ACGTACGTNNNNNACGTACGTNNNNNACGTACGT"
   const capPattern = `N{${config.nrun_cap_from},}`;
-  const nNrunsCapped = countRegex(s5, capPattern);
+  const nNrunsCapped = countRegex(s6, capPattern);
   const capToStr = "N".repeat(config.nrun_cap_to);
-  const s6 = s5.replace(new RegExp(capPattern, 'g'), capToStr);
+  const s7 = s6.replace(new RegExp(capPattern, 'g'), capToStr);
 
-  // Additional metrics (on s6)
-  const sequenceLength = s6.length;
-  const nCount = (s6.match(/N/g) || []).length;
+  // Additional metrics (on s7)
+  const sequenceLength = s7.length;
+  const nCount = (s7.match(/N/g) || []).length;
   const nFraction = sequenceLength > 0 ? nCount / sequenceLength : null;
 
-  // Compute ambiguous/non-IUPAC counts AFTER capping (on s6)
-  const nonAcgtnCount = countRegex(s6, "[^ACGTN]");
-  const nonIupacCount = countRegex(s6, `[^${config.iupac_dna}]`);
+  // Compute ambiguous/non-IUPAC counts AFTER capping (on s7)
+  const nonAcgtnCount = countRegex(s7, "[^ACGTN]");
+  const nonIupacCount = countRegex(s7, `[^${config.iupac_dna}]`);
   const nonACGTNFraction = sequenceLength > 0 ? nonAcgtnCount / sequenceLength : null;
   const nonIupacFraction = sequenceLength > 0 ? nonIupacCount / sequenceLength : null;
 
   // GC content (A/C/G/T only in denominator)
-  const gc = countRegex(s6, "[GC]");
-  const acgt = countRegex(s6, "[ACGT]");
+  const gc = countRegex(s7, "[GC]");
+  const acgt = countRegex(s7, "[ACGT]");
   const gcContent = acgt > 0 ? gc / acgt : null;
 
   // MD5 of the final cleaned sequence
-  const nucleotideSequenceID = md5(s6);
+  const nucleotideSequenceID = md5(s7);
 
   // Output object
   const invalid = (nonIupacFraction !== null && nonIupacFraction > 0) || naturalLanguageDetected;
   return {
     seq_id: seqId,
     raw_sequence: raw,
-    sequence: invalid ? null : s6,
+    sequence: invalid ? null : s7,
     sequence_length: sequenceLength,
     non_iupac_fraction: nonIupacFraction,
     non_acgtn_fraction: nonACGTNFraction,

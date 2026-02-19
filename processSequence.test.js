@@ -173,10 +173,21 @@ test('converts mixed U and T', () => {
 });
 
 // =============================================================================
-// Stage E: Anchor trimming
+// Stage E: Question mark to N
 // =============================================================================
 
-console.log('\n--- Stage E: Anchor Trimming ---');
+console.log('\n--- Stage E: Question Mark to N ---');
+
+test('converts ? to N', () => {
+  const result = processOneSequence('ACGTACGT?ACGTACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTNACGTACGT');
+});
+
+// =============================================================================
+// Stage F: Anchor trimming
+// =============================================================================
+
+console.log('\n--- Stage F: Anchor Trimming ---');
 
 test('trims non-anchor prefix', () => {
   const result = processOneSequence('XXXXACGTACGTACGT');
@@ -209,10 +220,10 @@ test('wipes sequence with no valid anchor run', () => {
 });
 
 // =============================================================================
-// Stage F: N-run capping
+// Stage G: N-run capping
 // =============================================================================
 
-console.log('\n--- Stage F: N-run Capping ---');
+console.log('\n--- Stage G: N-run Capping ---');
 
 test('caps long N-runs to 5', () => {
   const result = processOneSequence('ACGTACGTNNNNNNNNNNACGTACGT');

@@ -61,50 +61,54 @@ PSEUDO_CODE_function_process_one_sequence.txt
     # example: "ACGTUACGTU" -> "ACGTTACGTT"
     s3 = replace_all(s2, "U", "T")
 
-    # Stage E: trim to anchors (front & back)
+    # Stage E: ? -> N
+    # example: "ACGT?ACGT" -> "ACGTNACGT"
+    s4 = replace_all(s3, "?", "N")
+
+    # Stage F: trim to anchors (front & back)
     # example: with anchor_chars="ACGTU" and anchor_minrun=8:
     # "THISISMYGBIFSEQUENCEACGTACGTACGTNNNNNENDOFSEQUENCE" -> "ACGTACGTACGT"
-    t_first = trim_to_first_anchor_or_wipe(s3, config.anchor_chars, config.anchor_minrun)
-    s4 = t_first.s
-    t_last  = trim_to_last_anchor(s4, config.anchor_chars, config.anchor_minrun)
-    s5 = t_last.s
+    t_first = trim_to_first_anchor_or_wipe(s4, config.anchor_chars, config.anchor_minrun)
+    s5 = t_first.s
+    t_last  = trim_to_last_anchor(s5, config.anchor_chars, config.anchor_minrun)
+    s6 = t_last.s
     ends_trimmed = t_first.did OR t_last.did
 
-    # Stage F: cap N-runs (apply N-run cap to s5 -> s6)
+    # Stage G: cap N-runs (apply N-run cap to s6 -> s7)
     # example: with nrun_cap_from=6 and nrun_cap_to=5:
     # "ACGTACGTNNNNNNNNNNNNNNACGTACGTNNNNNNNNNACGTACGT" -> "ACGTACGTNNNNNACGTACGTNNNNNACGTACGT"
     cap_pattern = "N{" + nrun_cap_from + ",}"
-    n_nruns_capped = count_regex(s5, cap_pattern)
+    n_nruns_capped = count_regex(s6, cap_pattern)
     cap_to_str = repeat_char("N", nrun_cap_to)
-    s6 = replace_regex(s5, cap_pattern, cap_to_str)
+    s7 = replace_regex(s6, cap_pattern, cap_to_str)
 
-    # Additional metrics (on s6)
-    clean_length = length_in_bytes(s6)
-    n_count = count_fixed(s6, "N")
+    # Additional metrics (on s7)
+    clean_length = length_in_bytes(s7)
+    n_count = count_fixed(s7, "N")
     n_fraction = (clean_length > 0) ? n_count / clean_length : NULL
 
-    # IMPORTANT: compute ambiguous/non-IUPAC counts AFTER capping (on s6)
-    non_acgtn_count = count_regex(s6, "[^ACGTN]")
-    non_iupac_count = count_regex(s6, "[^" + config.iupac_dna + "]")
+    # IMPORTANT: compute ambiguous/non-IUPAC counts AFTER capping (on s7)
+    non_acgtn_count = count_regex(s7, "[^ACGTN]")
+    non_iupac_count = count_regex(s7, "[^" + config.iupac_dna + "]")
     non_acgtn_fraction = (clean_length > 0) ? non_acgtn_count / clean_length : NULL
     non_iupac_fraction = (clean_length > 0) ? non_iupac_count / clean_length : NULL
 
     # GC content (A/C/G/T only in denominator)
-    gc = count_regex(s6, "[GC]")
-    acgt = count_regex(s6, "[ACGT]")
+    gc = count_regex(s7, "[GC]")
+    acgt = count_regex(s7, "[ACGT]")
     gc_content = (acgt > 0) ? gc / acgt : NULL
 
     # MD5s
     # md5_raw is meant to mimick the current GBIF behavior: strip to IUPAC RNA first, then compute MD5
     # nucleotideSequenceID is computed on the final cleaned sequence
     md5_raw = md5( uppercase( remove_regex(raw, "[^" + config.iupac_rna + "]+") ) )
-    nucleotideSequenceID = md5(s6)
+    nucleotideSequenceID = md5(s7)
 
     # Output object
     result = {
       seq_id: optional id,
       raw_sequence: raw,
-      sequence: s6,
+      sequence: s7,
       clean_length: clean_length,
       non_iupac_fraction: non_iupac_fraction,
       non_acgtn_fraction: non_acgtn_fraction,
