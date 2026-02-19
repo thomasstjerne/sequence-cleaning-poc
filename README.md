@@ -13,8 +13,8 @@ This library processes raw DNA/RNA sequences through a multi-stage cleaning pipe
 | A | Normalize whitespace + uppercase | `"acgt acgt"` → `"ACGTACGT"` |
 | B | Detect natural language | Flags sequences containing natural language words |
 | C | Remove gaps | `"ACGT-ACGT..ACGT"` → `"ACGTACGTACGT"` |
-| D | Trim to anchors | Removes non-anchor characters from ends |
-| E | RNA to DNA conversion | `"ACGU"` → `"ACGT"` |
+| D | RNA to DNA conversion | `"ACGU"` → `"ACGT"` |
+| E | Trim to anchors | Removes non-anchor characters from ends |
 | F | Cap N-runs | `"ACGTACGTNNNNNNNNNNNACGTACGT"` → `"ACGTACGTNNNNNACGTACGT"` |
 
 ## Output Fields
