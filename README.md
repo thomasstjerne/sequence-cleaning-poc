@@ -15,7 +15,7 @@ This library processes raw DNA/RNA sequences through a multi-stage cleaning pipe
 | C | Remove gaps | `"ACGT-ACGT..ACGT"` → `"ACGTACGTACGT"` |
 | D | Trim to anchors | Removes non-anchor characters from ends |
 | E | RNA to DNA conversion | `"ACGU"` → `"ACGT"` |
-| F | Cap N-runs | `"ACGTNNNNNNNNNN"` → `"ACGTNNNNN"` |
+| F | Cap N-runs | `"ACGTACGTNNNNNNNNNNNACGTACGT"` → `"ACGTACGTNNNNNACGTACGT"` |
 
 ## Output Fields
 
