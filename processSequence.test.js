@@ -151,6 +151,11 @@ test('removes dots', () => {
   assert.strictEqual(result.sequence, 'ACGTACGTACGT');
 });
 
+test('removes question marks', () => {
+  const result = processOneSequence('ACGT?ACGT?ACGT');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
+});
+
 test('removes mixed gaps', () => {
   const result = processOneSequence('ACGT--.ACGT');
   assert.strictEqual(result.sequence, 'ACGTACGT');

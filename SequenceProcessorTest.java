@@ -145,6 +145,11 @@ public class SequenceProcessorTest {
             assertEqual(result.sequence(), "ACGTACGTACGT");
         });
 
+        test("removes question marks", () -> {
+            var result = processor.processOneSequence("ACGT?ACGT?ACGT");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
+        });
+
         test("removes mixed gaps", () -> {
             var result = processor.processOneSequence("ACGT--.ACGT");
             assertEqual(result.sequence(), "ACGTACGT");

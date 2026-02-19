@@ -62,7 +62,7 @@ public class SequenceProcessor {
                 values.getOrDefault("anchor_chars", "ACGTU"),
                 Integer.parseInt(values.getOrDefault("anchor_minrun", "8")),
                 values.getOrDefault("anchor_strict", "ACGTU"),
-                values.getOrDefault("gap_regex", "[-\\.]"),
+                values.getOrDefault("gap_regex", "[-\\.?]"),
                 values.getOrDefault("natural_language_regex", "UNMERGED"),
                 values.getOrDefault("iupac_rna", "ACGTURYSWKMBDHVN"),
                 values.getOrDefault("iupac_dna", "ACGTRYSWKMBDHVN"),

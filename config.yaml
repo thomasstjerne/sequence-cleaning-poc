@@ -7,7 +7,7 @@ anchor_minrun: 8
 anchor_strict: "ACGTU"
 
 # Gap characters to remove (regex pattern)
-gap_regex: "[-\\.]"
+gap_regex: "[-\\.?]"
 
 # Regex for detecting natural language words in sequences
 natural_language_regex: "REVERSE|REV|FWD|FORWARD|MERGED|UNMERGED"

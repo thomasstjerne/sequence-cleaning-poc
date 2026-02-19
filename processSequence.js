@@ -73,7 +73,7 @@ try {
     anchor_chars: "ACGTU",
     anchor_minrun: 8,
     anchor_strict: "ACGTU",
-    gap_regex: "[-\\.]",
+    gap_regex: "[-\\.?]",
     natural_language_regex: "UNMERGED",
     iupac_rna: "ACGTURYSWKMBDHVN",
     iupac_dna: "ACGTRYSWKMBDHVN",
