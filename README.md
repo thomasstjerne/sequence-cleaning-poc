@@ -30,7 +30,7 @@ This library processes raw DNA/RNA sequences through a multi-stage cleaning pipe
 | `gc_content` | float | GC content (based on A/C/G/T only) |
 | `natural_language_detected` | bool | Whether natural language words were found |
 | `ends_trimmed` | bool | Whether ends were trimmed |
-| `gap_and_whitespace_removed` | bool | Whether gaps or whitespace were removed |
+| `gaps_or_whitespace_removed` | bool | Whether gaps or whitespace were removed |
 | `nucleotideSequenceID` | string | MD5 of final cleaned sequence (null when invalid) |
 | `invalid` | bool | True when `non_iupac_fraction > 0` or `natural_language_detected` is true; nullifies `sequence` and `nucleotideSequenceID` |
 

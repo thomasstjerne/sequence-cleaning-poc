@@ -122,13 +122,13 @@ public class SequenceProcessor {
         String sequence,
         int sequenceLength,
         Double nonIupacFraction,
-        Double nonAcgtnFraction,
+        Double nonACGTNFraction,
         Double nFraction,
         int nNrunsCapped,
         Double gcContent,
         boolean naturalLanguageDetected,
         boolean endsTrimmed,
-        boolean gapAndWhitespaceRemoved,
+        boolean gapsOrWhitespaceRemoved,
         String nucleotideSequenceID,
         boolean invalid
     ) {}
@@ -177,7 +177,7 @@ public class SequenceProcessor {
         Pattern gapPattern = Pattern.compile(config.gapRegex());
         boolean hasGaps = gapPattern.matcher(s1).find();
         String s2 = s1.replaceAll(config.gapRegex(), "");
-        boolean gapAndWhitespaceRemoved = rawHasWs || hasGaps;
+        boolean gapsOrWhitespaceRemoved = rawHasWs || hasGaps;
 
         // Stage D: trim to anchors (front & back)
         // example: with anchor_chars="ACGTU" and anchor_minrun=8:
@@ -208,7 +208,7 @@ public class SequenceProcessor {
         // Compute ambiguous/non-IUPAC counts AFTER capping (on s6)
         int nonAcgtnCount = countRegex(s6, "[^ACGTN]");
         int nonIupacCount = countRegex(s6, "[^" + config.iupacDna() + "]");
-        Double nonAcgtnFraction = sequenceLength > 0 ? (double) nonAcgtnCount / sequenceLength : null;
+        Double nonACGTNFraction = sequenceLength > 0 ? (double) nonAcgtnCount / sequenceLength : null;
         Double nonIupacFraction = sequenceLength > 0 ? (double) nonIupacCount / sequenceLength : null;
 
         // GC content (A/C/G/T only in denominator)
@@ -228,13 +228,13 @@ public class SequenceProcessor {
             invalid ? null : s6,
             sequenceLength,
             nonIupacFraction,
-            nonAcgtnFraction,
+            nonACGTNFraction,
             nFraction,
             nNrunsCapped,
             gcContent,
             naturalLanguageDetected,
             endsTrimmed,
-            gapAndWhitespaceRemoved,
+            gapsOrWhitespaceRemoved,
             invalid ? null : nucleotideSequenceID,
             invalid
         );

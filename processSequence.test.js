@@ -110,7 +110,7 @@ test('converts lowercase to uppercase', () => {
 test('removes whitespace', () => {
   const result = processOneSequence('acgt acgt  acgt');
   assert.strictEqual(result.sequence, 'ACGTACGTACGT');
-  assert.strictEqual(result.gap_and_whitespace_removed, true);
+  assert.strictEqual(result.gaps_or_whitespace_removed, true);
 });
 
 test('removes tabs and newlines', () => {
@@ -143,7 +143,7 @@ console.log('\n--- Stage C: Gap Removal ---');
 test('removes hyphens', () => {
   const result = processOneSequence('ACGT-ACGT-ACGT');
   assert.strictEqual(result.sequence, 'ACGTACGTACGT');
-  assert.strictEqual(result.gap_and_whitespace_removed, true);
+  assert.strictEqual(result.gaps_or_whitespace_removed, true);
 });
 
 test('removes dots', () => {

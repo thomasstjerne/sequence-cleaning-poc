@@ -190,7 +190,7 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
   const gapRegex = new RegExp(config.gap_regex, 'g');
   const hasGaps = new RegExp(config.gap_regex).test(s1);
   const s2 = s1.replace(gapRegex, "");
-  const gapAndWhitespaceRemoved = rawHasWs || hasGaps;
+  const gapsOrWhitespaceRemoved = rawHasWs || hasGaps;
 
   // Stage D: trim to anchors (front & back)
   // example: with anchor_chars="ACGTU" and anchor_minrun=8:
@@ -221,7 +221,7 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
   // Compute ambiguous/non-IUPAC counts AFTER capping (on s6)
   const nonAcgtnCount = countRegex(s6, "[^ACGTN]");
   const nonIupacCount = countRegex(s6, `[^${config.iupac_dna}]`);
-  const nonAcgtnFraction = sequenceLength > 0 ? nonAcgtnCount / sequenceLength : null;
+  const nonACGTNFraction = sequenceLength > 0 ? nonAcgtnCount / sequenceLength : null;
   const nonIupacFraction = sequenceLength > 0 ? nonIupacCount / sequenceLength : null;
 
   // GC content (A/C/G/T only in denominator)
@@ -240,13 +240,13 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
     sequence: invalid ? null : s6,
     sequence_length: sequenceLength,
     non_iupac_fraction: nonIupacFraction,
-    non_acgtn_fraction: nonAcgtnFraction,
+    non_acgtn_fraction: nonACGTNFraction,
     n_fraction: nFraction,
     n_nruns_capped: nNrunsCapped,
     gc_content: gcContent,
     natural_language_detected: naturalLanguageDetected,
     ends_trimmed: endsTrimmed,
-    gap_and_whitespace_removed: gapAndWhitespaceRemoved,
+    gaps_or_whitespace_removed: gapsOrWhitespaceRemoved,
     nucleotide_sequence_id: invalid ? null : nucleotideSequenceID,
     invalid
   };

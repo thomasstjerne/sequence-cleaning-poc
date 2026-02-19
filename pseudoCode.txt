@@ -19,7 +19,7 @@ PSEUDO_CODE_function_process_one_sequence.txt
 # - gc_content: (calculated metric)  GC content of the cleaned sequence (based on A/C/G/T only)
 # - natural_language_detected: boolean flag indicating if natural language words were detected based on the presence of configured patterns
 # - ends_trimmed: boolean flag indicating if the sequence was trimmed at the ends based on anchor detection
-# - gap_and_whitespace_removed: boolean flag indicating if any gaps or whitespace were removed during cleaning
+# - gaps_or_whitespace_removed: boolean flag indicating if any gaps or whitespace were removed during cleaning
 # - md5: MD5 hash of the raw sequence after stripping to IUPAC RNA characters (mimicking current GBIF behavior for development purpose) # NB: this is not the MD5 of the original raw sequence, but rather the MD5 of the raw sequence after a specific transformation (strip to IUPAC RNA and uppercase) . Do not include in final function.
 # - nucleotideSequenceID: MD5 hash of the final cleaned sequence # NB: this is the MD5 of the final cleaned sequence. This is the value that is meant to be used for indexing sequences in the GBIF occurrence index.
 
@@ -55,7 +55,7 @@ PSEUDO_CODE_function_process_one_sequence.txt
     # example: "ACGT-ACGT..ACGT" -> "ACGTACGTACGT"
     has_gaps = contains_regex(s1, config.gap_regex)
     s2 = replace_regex(s1, config.gap_regex, "")
-    gap_and_whitespace_removed = raw_has_ws OR has_gaps
+    gaps_or_whitespace_removed = raw_has_ws OR has_gaps
 
     # Stage D: trim to anchors (front & back)
     # example: with anchor_chars="ACGTU" and anchor_minrun=8:
@@ -113,7 +113,7 @@ PSEUDO_CODE_function_process_one_sequence.txt
       gc_content: gc_content,
       natural_language_detected: natural_language_detected,
       ends_trimmed: ends_trimmed,
-      gap_and_whitespace_removed: gap_and_whitespace_removed,
+      gaps_or_whitespace_removed: gaps_or_whitespace_removed,
       md5: md5_raw,
       nucleotideSequenceID: nucleotideSequenceID
     }

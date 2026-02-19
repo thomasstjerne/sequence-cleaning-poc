@@ -15,7 +15,7 @@
         "gc_content": 0.5103697024346258,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasNonIupac"
@@ -33,7 +33,7 @@
         "gc_content": 0.3737704918032787,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasNonIupac"
@@ -51,7 +51,7 @@
         "gc_content": 0.5912698412698413,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasNonIupac"
@@ -69,7 +69,7 @@
         "gc_content": 0.5637860082304527,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasNonIupac"
@@ -87,7 +87,7 @@
         "gc_content": 0.5887728459530026,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasNonIupac"
@@ -105,7 +105,7 @@
         "gc_content": 0.5221579961464354,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasNonIupac"
@@ -123,7 +123,7 @@
         "gc_content": 0.28281750266808964,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasNonIupac"
@@ -141,7 +141,7 @@
         "gc_content": 0.35082604470359574,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasNonIupac"
@@ -159,7 +159,7 @@
         "gc_content": 0.400974025974026,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -177,7 +177,7 @@
         "gc_content": 0.3732283464566929,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -195,7 +195,7 @@
         "gc_content": 0.39477726574500765,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -213,7 +213,7 @@
         "gc_content": 0.37816455696202533,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -231,7 +231,7 @@
         "gc_content": 0.3929712460063898,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -249,7 +249,7 @@
         "gc_content": 0.4488549618320611,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -267,7 +267,7 @@
         "gc_content": 0.44224422442244227,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -285,7 +285,7 @@
         "gc_content": 0.32575757575757575,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -303,7 +303,7 @@
         "gc_content": 0.3903281519861831,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -321,7 +321,7 @@
         "gc_content": 0.4192073170731707,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -339,7 +339,7 @@
         "gc_content": 0.41743119266055045,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -357,7 +357,7 @@
         "gc_content": 0.4146341463414634,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -375,7 +375,7 @@
         "gc_content": 0.4174917491749175,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -393,7 +393,7 @@
         "gc_content": 0.41960183767228176,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -411,7 +411,7 @@
         "gc_content": 0.42073170731707316,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNonAcgtn"
@@ -429,7 +429,7 @@
         "gc_content": 0.5,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -447,7 +447,7 @@
         "gc_content": 0.4645390070921986,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -465,7 +465,7 @@
         "gc_content": 0.49318801089918257,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -483,7 +483,7 @@
         "gc_content": 0.44224422442244227,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -501,7 +501,7 @@
         "gc_content": 0.4519650655021834,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -519,7 +519,7 @@
         "gc_content": 0.2929824561403509,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -537,7 +537,7 @@
         "gc_content": 0.32212389380530976,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -555,7 +555,7 @@
         "gc_content": 0.4393700787401575,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -573,7 +573,7 @@
         "gc_content": 0.3417085427135678,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -591,7 +591,7 @@
         "gc_content": 0.3222748815165877,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -609,7 +609,7 @@
         "gc_content": 0.2979683972911964,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -627,7 +627,7 @@
         "gc_content": 0.2876404494382023,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -645,7 +645,7 @@
         "gc_content": 0.3068181818181818,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -663,7 +663,7 @@
         "gc_content": 0.2853932584269663,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -681,7 +681,7 @@
         "gc_content": 0.3082191780821918,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNFraction"
@@ -699,7 +699,7 @@
         "gc_content": 0.42832167832167833,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNrunsCapped"
@@ -717,7 +717,7 @@
         "gc_content": 0.42832167832167833,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNrunsCapped"
@@ -735,7 +735,7 @@
         "gc_content": 0.4557595993322204,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNrunsCapped"
@@ -753,7 +753,7 @@
         "gc_content": 0.4350758853288364,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNrunsCapped"
@@ -771,7 +771,7 @@
         "gc_content": 0.4350758853288364,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNrunsCapped"
@@ -789,7 +789,7 @@
         "gc_content": 0.3039443155452436,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNrunsCapped"
@@ -807,7 +807,7 @@
         "gc_content": 0.298876404494382,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNrunsCapped"
@@ -825,7 +825,7 @@
         "gc_content": 0.2934272300469484,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNrunsCapped"
@@ -843,7 +843,7 @@
         "gc_content": 0.2727272727272727,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasNrunsCapped"
@@ -861,7 +861,7 @@
         "gc_content": 0.28728414442700156,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -879,7 +879,7 @@
         "gc_content": 0.2732049036777583,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -897,7 +897,7 @@
         "gc_content": 0.36609336609336607,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -915,7 +915,7 @@
         "gc_content": 0.35872235872235875,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -933,7 +933,7 @@
         "gc_content": 0.36117936117936117,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -951,7 +951,7 @@
         "gc_content": 0.33865814696485624,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -969,7 +969,7 @@
         "gc_content": 0.3464373464373464,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -987,7 +987,7 @@
         "gc_content": 0.30933333333333335,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -1005,7 +1005,7 @@
         "gc_content": 0.4176904176904177,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -1023,7 +1023,7 @@
         "gc_content": 0.3406113537117904,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -1041,7 +1041,7 @@
         "gc_content": 0.32432432432432434,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -1059,7 +1059,7 @@
         "gc_content": 0.29238329238329236,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -1077,7 +1077,7 @@
         "gc_content": 0.28013029315960913,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -1095,7 +1095,7 @@
         "gc_content": 0.32678132678132676,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -1113,7 +1113,7 @@
         "gc_content": 0.2768729641693811,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasGaps"
@@ -1131,7 +1131,7 @@
         "gc_content": 0.2905844155844156,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "hasEndsTrimmed"
@@ -1149,7 +1149,7 @@
         "gc_content": 0.2551834130781499,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasEndsTrimmed"
@@ -1167,7 +1167,7 @@
         "gc_content": 0.3261494252873563,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasEndsTrimmed"
@@ -1185,7 +1185,7 @@
         "gc_content": 0.3281027104136947,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasEndsTrimmed"
@@ -1203,7 +1203,7 @@
         "gc_content": 0.2984189723320158,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasEndsTrimmed"
@@ -1221,7 +1221,7 @@
         "gc_content": 0.35331230283911674,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasEndsTrimmed"
@@ -1239,7 +1239,7 @@
         "gc_content": 0.31790123456790126,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasEndsTrimmed"
@@ -1257,7 +1257,7 @@
         "gc_content": 0.450229709035222,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasEndsTrimmed"
@@ -1275,7 +1275,7 @@
         "gc_content": 0.44801223241590216,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasEndsTrimmed"
@@ -1293,7 +1293,7 @@
         "gc_content": 0.450229709035222,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasEndsTrimmed"
@@ -1311,7 +1311,7 @@
         "gc_content": 0.44954128440366975,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasEndsTrimmed"
@@ -1329,7 +1329,7 @@
         "gc_content": 0.4498432601880878,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasEndsTrimmed"
@@ -1347,7 +1347,7 @@
         "gc_content": 0.39477726574500765,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasEndsTrimmed"
@@ -1365,7 +1365,7 @@
         "gc_content": 0.39663093415007655,
         "natural_language_detected": false,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "hasEndsTrimmed"
@@ -1383,7 +1383,7 @@
         "gc_content": 0.2811550151975684,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "lowGC"
@@ -1401,7 +1401,7 @@
         "gc_content": 0.2811550151975684,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "lowGC"
@@ -1419,7 +1419,7 @@
         "gc_content": 0.2872340425531915,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "lowGC"
@@ -1437,7 +1437,7 @@
         "gc_content": 0.2796352583586626,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "lowGC"
@@ -1455,7 +1455,7 @@
         "gc_content": 0.2796352583586626,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "lowGC"
@@ -1473,7 +1473,7 @@
         "gc_content": 0.2765957446808511,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "lowGC"
@@ -1491,7 +1491,7 @@
         "gc_content": 0.27811550151975684,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "lowGC"
@@ -1509,7 +1509,7 @@
         "gc_content": 0.2826747720364742,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "lowGC"
@@ -1527,7 +1527,7 @@
         "gc_content": 0.28419452887537994,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "lowGC"
@@ -1545,7 +1545,7 @@
         "gc_content": 0.2735562310030395,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "lowGC"
@@ -1563,7 +1563,7 @@
         "gc_content": 0.2826747720364742,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "lowGC"
@@ -1581,7 +1581,7 @@
         "gc_content": 0.28419452887537994,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "lowGC"
@@ -1599,7 +1599,7 @@
         "gc_content": 0.2765957446808511,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "lowGC"
@@ -1617,7 +1617,7 @@
         "gc_content": 0.2735562310030395,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "lowGC"
@@ -1635,7 +1635,7 @@
         "gc_content": 0.7224770642201835,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "highGC"
@@ -1653,7 +1653,7 @@
         "gc_content": 0.7199558985667034,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "highGC"
@@ -1671,7 +1671,7 @@
         "gc_content": 0.7390029325513197,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "highGC"
@@ -1689,7 +1689,7 @@
         "gc_content": 0.7291666666666666,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": false,
+        "gaps_or_whitespace_removed": false,
         "invalid": false
       },
       "category": "highGC"
@@ -1707,7 +1707,7 @@
         "gc_content": 0.6561338289962825,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "highGC"
@@ -1725,7 +1725,7 @@
         "gc_content": 0.6561338289962825,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "highGC"
@@ -1743,7 +1743,7 @@
         "gc_content": 0.6561338289962825,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "highGC"
@@ -1761,7 +1761,7 @@
         "gc_content": 0.6561338289962825,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "highGC"
@@ -1779,7 +1779,7 @@
         "gc_content": 0.6561338289962825,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "highGC"
@@ -1797,7 +1797,7 @@
         "gc_content": 0.6561338289962825,
         "natural_language_detected": false,
         "ends_trimmed": false,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": false
       },
       "category": "highGC"
@@ -1815,7 +1815,7 @@
         "gc_content": 0.4819277108433735,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasUnmerged"
@@ -1833,7 +1833,7 @@
         "gc_content": 0.3319672131147541,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasUnmerged"
@@ -1851,7 +1851,7 @@
         "gc_content": 0.4276094276094276,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasUnmerged"
@@ -1869,7 +1869,7 @@
         "gc_content": 0.3803418803418803,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasUnmerged"
@@ -1887,7 +1887,7 @@
         "gc_content": 0.3525835866261398,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasUnmerged"
@@ -1905,7 +1905,7 @@
         "gc_content": 0.33905579399141633,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasUnmerged"
@@ -1923,7 +1923,7 @@
         "gc_content": 0.4387755102040816,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasUnmerged"
@@ -1941,7 +1941,7 @@
         "gc_content": 0.4311594202898551,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasUnmerged"
@@ -1959,7 +1959,7 @@
         "gc_content": 0.4548872180451128,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasUnmerged"
@@ -1977,7 +1977,7 @@
         "gc_content": 0.45016077170418006,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "hasUnmerged"

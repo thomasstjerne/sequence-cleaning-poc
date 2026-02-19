@@ -104,7 +104,7 @@ public class SequenceProcessorTest {
         test("removes whitespace", () -> {
             var result = processor.processOneSequence("acgt acgt  acgt");
             assertEqual(result.sequence(), "ACGTACGTACGT");
-            assertEqual(result.gapAndWhitespaceRemoved(), true);
+            assertEqual(result.gapsOrWhitespaceRemoved(), true);
         });
 
         test("removes tabs and newlines", () -> {
@@ -137,7 +137,7 @@ public class SequenceProcessorTest {
         test("removes hyphens", () -> {
             var result = processor.processOneSequence("ACGT-ACGT-ACGT");
             assertEqual(result.sequence(), "ACGTACGTACGT");
-            assertEqual(result.gapAndWhitespaceRemoved(), true);
+            assertEqual(result.gapsOrWhitespaceRemoved(), true);
         });
 
         test("removes dots", () -> {
@@ -255,7 +255,7 @@ public class SequenceProcessorTest {
         test("calculates non_acgtn_fraction", () -> {
             // 8 anchor chars at start, 4 ambiguous (RYRY), 8 anchor chars at end = 20 total
             var result = processor.processOneSequence("ACGTACGTRYRYACGTACGT");
-            assertClose(result.nonAcgtnFraction(), 4.0 / 20.0);
+            assertClose(result.nonACGTNFraction(), 4.0 / 20.0);
         });
 
         test("non_iupac_fraction is 0 for valid IUPAC", () -> {

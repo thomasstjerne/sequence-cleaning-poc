@@ -16,7 +16,7 @@
         "gc_content": 0.3347107438016529,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -34,7 +34,7 @@
         "gc_content": 0.46394984326018807,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -52,7 +52,7 @@
         "gc_content": 0.37872340425531914,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -70,7 +70,7 @@
         "gc_content": 0.3793103448275862,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -88,7 +88,7 @@
         "gc_content": 0.3235294117647059,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -106,7 +106,7 @@
         "gc_content": 0.4251012145748988,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -124,7 +124,7 @@
         "gc_content": 0.42857142857142855,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -142,7 +142,7 @@
         "gc_content": 0.30246913580246915,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -160,7 +160,7 @@
         "gc_content": 0.3650190114068441,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -178,7 +178,7 @@
         "gc_content": 0.31932773109243695,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -196,7 +196,7 @@
         "gc_content": 0.4473684210526316,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -214,7 +214,7 @@
         "gc_content": 0.46579804560260585,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -232,7 +232,7 @@
         "gc_content": 0.3951612903225806,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -250,7 +250,7 @@
         "gc_content": 0.5217391304347826,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -268,7 +268,7 @@
         "gc_content": 0.39215686274509803,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -286,7 +286,7 @@
         "gc_content": 0.35918367346938773,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -304,7 +304,7 @@
         "gc_content": 0.33766233766233766,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -322,7 +322,7 @@
         "gc_content": 0.3404255319148936,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -340,7 +340,7 @@
         "gc_content": 0.4076923076923077,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -358,7 +358,7 @@
         "gc_content": 0.3363914373088685,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -376,7 +376,7 @@
         "gc_content": 0.2838427947598253,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -394,7 +394,7 @@
         "gc_content": 0.5691823899371069,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -412,7 +412,7 @@
         "gc_content": 0.42152466367713004,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -430,7 +430,7 @@
         "gc_content": 0.351931330472103,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -448,7 +448,7 @@
         "gc_content": 0.5234899328859061,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -466,7 +466,7 @@
         "gc_content": 0.3261538461538461,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -484,7 +484,7 @@
         "gc_content": 0.4819277108433735,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -502,7 +502,7 @@
         "gc_content": 0.3706896551724138,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -520,7 +520,7 @@
         "gc_content": 0.5288135593220339,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -538,7 +538,7 @@
         "gc_content": 0.3393939393939394,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -556,7 +556,7 @@
         "gc_content": 0.3981762917933131,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -574,7 +574,7 @@
         "gc_content": 0.3490566037735849,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -592,7 +592,7 @@
         "gc_content": 0.32644628099173556,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -610,7 +610,7 @@
         "gc_content": 0.4462809917355372,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -628,7 +628,7 @@
         "gc_content": 0.33024691358024694,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -646,7 +646,7 @@
         "gc_content": 0.3765432098765432,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -664,7 +664,7 @@
         "gc_content": 0.39919354838709675,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -682,7 +682,7 @@
         "gc_content": 0.5019157088122606,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -700,7 +700,7 @@
         "gc_content": 0.2857142857142857,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -718,7 +718,7 @@
         "gc_content": 0.345679012345679,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -736,7 +736,7 @@
         "gc_content": 0.4482758620689655,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -754,7 +754,7 @@
         "gc_content": 0.38961038961038963,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -772,7 +772,7 @@
         "gc_content": 0.5218855218855218,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -790,7 +790,7 @@
         "gc_content": 0.4575757575757576,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -808,7 +808,7 @@
         "gc_content": 0.38549618320610685,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -826,7 +826,7 @@
         "gc_content": 0.4234527687296417,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -844,7 +844,7 @@
         "gc_content": 0.40425531914893614,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -862,7 +862,7 @@
         "gc_content": 0.36363636363636365,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -880,7 +880,7 @@
         "gc_content": 0.5258064516129032,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -898,7 +898,7 @@
         "gc_content": 0.3191489361702128,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -916,7 +916,7 @@
         "gc_content": 0.44129554655870445,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -934,7 +934,7 @@
         "gc_content": 0.3025210084033613,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -952,7 +952,7 @@
         "gc_content": 0.4493927125506073,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -970,7 +970,7 @@
         "gc_content": 0.3271604938271605,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -988,7 +988,7 @@
         "gc_content": 0.519650655021834,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1006,7 +1006,7 @@
         "gc_content": 0.3191489361702128,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1024,7 +1024,7 @@
         "gc_content": 0.3515151515151515,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1042,7 +1042,7 @@
         "gc_content": 0.5205479452054794,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1060,7 +1060,7 @@
         "gc_content": 0.3198757763975155,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1078,7 +1078,7 @@
         "gc_content": 0.5387755102040817,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1096,7 +1096,7 @@
         "gc_content": 0.2962962962962963,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1114,7 +1114,7 @@
         "gc_content": 0.46218487394957986,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1132,7 +1132,7 @@
         "gc_content": 0.3776435045317221,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1150,7 +1150,7 @@
         "gc_content": 0.4171974522292994,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1168,7 +1168,7 @@
         "gc_content": 0.31384615384615383,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1186,7 +1186,7 @@
         "gc_content": 0.3558282208588957,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1204,7 +1204,7 @@
         "gc_content": 0.3484848484848485,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1222,7 +1222,7 @@
         "gc_content": 0.44694533762057875,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1240,7 +1240,7 @@
         "gc_content": 0.36466165413533835,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1258,7 +1258,7 @@
         "gc_content": 0.4241486068111455,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1276,7 +1276,7 @@
         "gc_content": 0.34,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1294,7 +1294,7 @@
         "gc_content": 0.34763948497854075,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1312,7 +1312,7 @@
         "gc_content": 0.5209790209790209,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1330,7 +1330,7 @@
         "gc_content": 0.4637223974763407,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1348,7 +1348,7 @@
         "gc_content": 0.37898089171974525,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1366,7 +1366,7 @@
         "gc_content": 0.30864197530864196,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1384,7 +1384,7 @@
         "gc_content": 0.3333333333333333,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1402,7 +1402,7 @@
         "gc_content": 0.33641975308641975,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1420,7 +1420,7 @@
         "gc_content": 0.3512396694214876,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1438,7 +1438,7 @@
         "gc_content": 0.4107142857142857,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1456,7 +1456,7 @@
         "gc_content": 0.3395061728395062,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1474,7 +1474,7 @@
         "gc_content": 0.3247863247863248,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1492,7 +1492,7 @@
         "gc_content": 0.35390946502057613,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1510,7 +1510,7 @@
         "gc_content": 0.3727598566308244,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1528,7 +1528,7 @@
         "gc_content": 0.38144329896907214,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1546,7 +1546,7 @@
         "gc_content": 0.43197278911564624,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1564,7 +1564,7 @@
         "gc_content": 0.3697478991596639,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1582,7 +1582,7 @@
         "gc_content": 0.39919354838709675,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1600,7 +1600,7 @@
         "gc_content": 0.46779661016949153,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1618,7 +1618,7 @@
         "gc_content": 0.3459915611814346,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1636,7 +1636,7 @@
         "gc_content": 0.3406113537117904,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1654,7 +1654,7 @@
         "gc_content": 0.33905579399141633,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1672,7 +1672,7 @@
         "gc_content": 0.3512396694214876,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1690,7 +1690,7 @@
         "gc_content": 0.3308270676691729,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1708,7 +1708,7 @@
         "gc_content": 0.519434628975265,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1726,7 +1726,7 @@
         "gc_content": 0.3487394957983193,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1744,7 +1744,7 @@
         "gc_content": 0.34177215189873417,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1762,7 +1762,7 @@
         "gc_content": 0.4012158054711246,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1780,7 +1780,7 @@
         "gc_content": 0.36324786324786323,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1798,7 +1798,7 @@
         "gc_content": 0.32340425531914896,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1816,7 +1816,7 @@
         "gc_content": 0.3067226890756303,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1834,7 +1834,7 @@
         "gc_content": 0.3803418803418803,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1852,7 +1852,7 @@
         "gc_content": 0.3076923076923077,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1870,7 +1870,7 @@
         "gc_content": 0.33613445378151263,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1888,7 +1888,7 @@
         "gc_content": 0.41883116883116883,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1906,7 +1906,7 @@
         "gc_content": 0.41875,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1924,7 +1924,7 @@
         "gc_content": 0.3507692307692308,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1942,7 +1942,7 @@
         "gc_content": 0.5245901639344263,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1960,7 +1960,7 @@
         "gc_content": 0.4014084507042254,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1978,7 +1978,7 @@
         "gc_content": 0.42857142857142855,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -1996,7 +1996,7 @@
         "gc_content": 0.35537190082644626,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2014,7 +2014,7 @@
         "gc_content": 0.4440677966101695,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2032,7 +2032,7 @@
         "gc_content": 0.3076923076923077,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2050,7 +2050,7 @@
         "gc_content": 0.4309623430962343,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2068,7 +2068,7 @@
         "gc_content": 0.33760683760683763,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2086,7 +2086,7 @@
         "gc_content": 0.4542483660130719,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2104,7 +2104,7 @@
         "gc_content": 0.2897959183673469,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2122,7 +2122,7 @@
         "gc_content": 0.5252525252525253,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2140,7 +2140,7 @@
         "gc_content": 0.3319672131147541,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2158,7 +2158,7 @@
         "gc_content": 0.45016077170418006,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2176,7 +2176,7 @@
         "gc_content": 0.4311594202898551,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2194,7 +2194,7 @@
         "gc_content": 0.35454545454545455,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2212,7 +2212,7 @@
         "gc_content": 0.5252525252525253,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2230,7 +2230,7 @@
         "gc_content": 0.3575757575757576,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2248,7 +2248,7 @@
         "gc_content": 0.4897260273972603,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2266,7 +2266,7 @@
         "gc_content": 0.3651452282157676,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2284,7 +2284,7 @@
         "gc_content": 0.39457831325301207,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2302,7 +2302,7 @@
         "gc_content": 0.4187725631768953,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2320,7 +2320,7 @@
         "gc_content": 0.4387755102040816,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2338,7 +2338,7 @@
         "gc_content": 0.30864197530864196,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2356,7 +2356,7 @@
         "gc_content": 0.5290322580645161,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2374,7 +2374,7 @@
         "gc_content": 0.3974358974358974,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2392,7 +2392,7 @@
         "gc_content": 0.4411764705882353,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2410,7 +2410,7 @@
         "gc_content": 0.4,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2428,7 +2428,7 @@
         "gc_content": 0.30038022813688214,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2446,7 +2446,7 @@
         "gc_content": 0.3525835866261398,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2464,7 +2464,7 @@
         "gc_content": 0.33941605839416056,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2482,7 +2482,7 @@
         "gc_content": 0.403030303030303,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2500,7 +2500,7 @@
         "gc_content": 0.31790123456790126,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2518,7 +2518,7 @@
         "gc_content": 0.3911290322580645,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2536,7 +2536,7 @@
         "gc_content": 0.5218855218855218,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2554,7 +2554,7 @@
         "gc_content": 0.3734567901234568,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2572,7 +2572,7 @@
         "gc_content": 0.474025974025974,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2590,7 +2590,7 @@
         "gc_content": 0.3907563025210084,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2608,7 +2608,7 @@
         "gc_content": 0.4548872180451128,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2626,7 +2626,7 @@
         "gc_content": 0.3944954128440367,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2644,7 +2644,7 @@
         "gc_content": 0.43343653250773995,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2662,7 +2662,7 @@
         "gc_content": 0.44621513944223107,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2680,7 +2680,7 @@
         "gc_content": 0.42424242424242425,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2698,7 +2698,7 @@
         "gc_content": 0.41411042944785276,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2716,7 +2716,7 @@
         "gc_content": 0.4276094276094276,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2734,7 +2734,7 @@
         "gc_content": 0.3549382716049383,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2752,7 +2752,7 @@
         "gc_content": 0.3403361344537815,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2770,7 +2770,7 @@
         "gc_content": 0.3931888544891641,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2788,7 +2788,7 @@
         "gc_content": 0.35185185185185186,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2806,7 +2806,7 @@
         "gc_content": 0.3803418803418803,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2824,7 +2824,7 @@
         "gc_content": 0.36728395061728397,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2842,7 +2842,7 @@
         "gc_content": 0.4078549848942598,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"
@@ -2860,7 +2860,7 @@
         "gc_content": 0.44680851063829785,
         "natural_language_detected": true,
         "ends_trimmed": true,
-        "gap_and_whitespace_removed": true,
+        "gaps_or_whitespace_removed": true,
         "invalid": true
       },
       "category": "natural_language_detected"

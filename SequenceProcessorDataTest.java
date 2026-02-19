@@ -46,11 +46,11 @@ public class SequenceProcessorDataTest {
                 assertEqual(result.nNrunsCapped(), tc.expectedNrunsCapped, "n_nruns_capped");
                 assertEqual(result.naturalLanguageDetected(), tc.expectedNaturalLanguageDetected, "natural_language_detected");
                 assertEqual(result.endsTrimmed(), tc.expectedEndsTrimmed, "ends_trimmed");
-                assertEqual(result.gapAndWhitespaceRemoved(), tc.expectedGapAndWhitespaceRemoved, "gap_and_whitespace_removed");
+                assertEqual(result.gapsOrWhitespaceRemoved(), tc.expectedGapsOrWhitespaceRemoved, "gaps_or_whitespace_removed");
                 assertEqual(result.invalid(), tc.expectedInvalid, "invalid");
 
                 assertClose(result.nonIupacFraction(), tc.expectedNonIupacFraction, "non_iupac_fraction");
-                assertClose(result.nonAcgtnFraction(), tc.expectedNonAcgtnFraction, "non_acgtn_fraction");
+                assertClose(result.nonACGTNFraction(), tc.expectedNonACGTNFraction, "non_acgtn_fraction");
                 assertClose(result.nFraction(), tc.expectedNFraction, "n_fraction");
                 assertClose(result.gcContent(), tc.expectedGcContent, "gc_content");
             });
@@ -134,13 +134,13 @@ public class SequenceProcessorDataTest {
         String expectedCleanSequence;
         int expectedCleanLength;
         Double expectedNonIupacFraction;
-        Double expectedNonAcgtnFraction;
+        Double expectedNonACGTNFraction;
         Double expectedNFraction;
         int expectedNrunsCapped;
         Double expectedGcContent;
         boolean expectedNaturalLanguageDetected;
         boolean expectedEndsTrimmed;
-        boolean expectedGapAndWhitespaceRemoved;
+        boolean expectedGapsOrWhitespaceRemoved;
         boolean expectedInvalid;
     }
 
@@ -236,13 +236,13 @@ public class SequenceProcessorDataTest {
             tc.expectedCleanSequence = extractString(expectedJson, "sequence");
             tc.expectedCleanLength = extractInt(expectedJson, "sequence_length");
             tc.expectedNonIupacFraction = extractDouble(expectedJson, "non_iupac_fraction");
-            tc.expectedNonAcgtnFraction = extractDouble(expectedJson, "non_acgtn_fraction");
+            tc.expectedNonACGTNFraction = extractDouble(expectedJson, "non_acgtn_fraction");
             tc.expectedNFraction = extractDouble(expectedJson, "n_fraction");
             tc.expectedNrunsCapped = extractInt(expectedJson, "n_nruns_capped");
             tc.expectedGcContent = extractDouble(expectedJson, "gc_content");
             tc.expectedNaturalLanguageDetected = extractBoolean(expectedJson, "natural_language_detected");
             tc.expectedEndsTrimmed = extractBoolean(expectedJson, "ends_trimmed");
-            tc.expectedGapAndWhitespaceRemoved = extractBoolean(expectedJson, "gap_and_whitespace_removed");
+            tc.expectedGapsOrWhitespaceRemoved = extractBoolean(expectedJson, "gaps_or_whitespace_removed");
             tc.expectedInvalid = extractBoolean(expectedJson, "invalid");
         }
 
