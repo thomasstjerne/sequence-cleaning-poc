@@ -62,7 +62,7 @@ public class SequenceProcessor {
                 values.getOrDefault("anchor_chars", "ACGTU"),
                 Integer.parseInt(values.getOrDefault("anchor_minrun", "8")),
                 values.getOrDefault("anchor_strict", "ACGTU"),
-                values.getOrDefault("gap_regex", "[-\\.?]"),
+                values.getOrDefault("gap_regex", "[-\\.]"),
                 values.getOrDefault("natural_language_regex", "UNMERGED"),
                 values.getOrDefault("iupac_rna", "ACGTURYSWKMBDHVN"),
                 values.getOrDefault("iupac_dna", "ACGTRYSWKMBDHVN"),
@@ -179,18 +179,18 @@ public class SequenceProcessor {
         String s2 = s1.replaceAll(config.gapRegex(), "");
         boolean gapsOrWhitespaceRemoved = rawHasWs || hasGaps;
 
-        // Stage D: trim to anchors (front & back)
+        // Stage D: U -> T (RNA->DNA)
+        // example: "ACGTUACGTU" -> "ACGTTACGTT"
+        String s3 = s2.replace("U", "T");
+
+        // Stage E: trim to anchors (front & back)
         // example: with anchor_chars="ACGTU" and anchor_minrun=8:
         // "THISISMYGBIFSEQUENCEACGTACGTACGTNNNNNENDOFSEQUENCE" -> "ACGTACGTACGT"
-        TrimResult tFirst = trimToFirstAnchorOrWipe(s2, config.anchorChars(), config.anchorMinrun());
-        String s3 = tFirst.s();
-        TrimResult tLast = trimToLastAnchor(s3, config.anchorChars(), config.anchorMinrun());
-        String s4 = tLast.s();
+        TrimResult tFirst = trimToFirstAnchorOrWipe(s3, config.anchorChars(), config.anchorMinrun());
+        String s4 = tFirst.s();
+        TrimResult tLast = trimToLastAnchor(s4, config.anchorChars(), config.anchorMinrun());
+        String s5 = tLast.s();
         boolean endsTrimmed = tFirst.did() || tLast.did();
-
-        // Stage E: U -> T (RNA->DNA)
-        // example: "ACGTUACGTU" -> "ACGTTACGTT"
-        String s5 = s4.replace("U", "T");
 
         // Stage F: cap N-runs (apply N-run cap to s5 -> s6)
         // example: with nrun_cap_from=6 and nrun_cap_to=5:

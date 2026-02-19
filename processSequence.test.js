@@ -151,21 +151,32 @@ test('removes dots', () => {
   assert.strictEqual(result.sequence, 'ACGTACGTACGT');
 });
 
-test('removes question marks', () => {
-  const result = processOneSequence('ACGT?ACGT?ACGT');
-  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
-});
-
 test('removes mixed gaps', () => {
   const result = processOneSequence('ACGT--.ACGT');
   assert.strictEqual(result.sequence, 'ACGTACGT');
 });
 
 // =============================================================================
-// Stage D: Anchor trimming
+// Stage D: U to T conversion
 // =============================================================================
 
-console.log('\n--- Stage D: Anchor Trimming ---');
+console.log('\n--- Stage D: U to T Conversion ---');
+
+test('converts U to T', () => {
+  const result = processOneSequence('ACGUACGUACGU');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
+});
+
+test('converts mixed U and T', () => {
+  const result = processOneSequence('ACGUACGTACGU');
+  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
+});
+
+// =============================================================================
+// Stage E: Anchor trimming
+// =============================================================================
+
+console.log('\n--- Stage E: Anchor Trimming ---');
 
 test('trims non-anchor prefix', () => {
   const result = processOneSequence('XXXXACGTACGTACGT');
@@ -195,22 +206,6 @@ test('wipes sequence with no valid anchor run', () => {
   const result = processOneSequence('ACGTXXXXACGT');
   assert.strictEqual(result.sequence, '');
   assert.strictEqual(result.ends_trimmed, true);
-});
-
-// =============================================================================
-// Stage E: U to T conversion
-// =============================================================================
-
-console.log('\n--- Stage E: U to T Conversion ---');
-
-test('converts U to T', () => {
-  const result = processOneSequence('ACGUACGUACGU');
-  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
-});
-
-test('converts mixed U and T', () => {
-  const result = processOneSequence('ACGUACGTACGU');
-  assert.strictEqual(result.sequence, 'ACGTACGTACGT');
 });
 
 // =============================================================================

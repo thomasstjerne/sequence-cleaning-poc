@@ -73,7 +73,7 @@ try {
     anchor_chars: "ACGTU",
     anchor_minrun: 8,
     anchor_strict: "ACGTU",
-    gap_regex: "[-\\.?]",
+    gap_regex: "[-\\.]",
     natural_language_regex: "UNMERGED",
     iupac_rna: "ACGTURYSWKMBDHVN",
     iupac_dna: "ACGTRYSWKMBDHVN",
@@ -192,18 +192,18 @@ function processOneSequence(seq, config = DEFAULT_CONFIG, seqId = null) {
   const s2 = s1.replace(gapRegex, "");
   const gapsOrWhitespaceRemoved = rawHasWs || hasGaps;
 
-  // Stage D: trim to anchors (front & back)
+  // Stage D: U -> T (RNA->DNA)
+  // example: "ACGTUACGTU" -> "ACGTTACGTT"
+  const s3 = s2.replace(/U/g, "T");
+
+  // Stage E: trim to anchors (front & back)
   // example: with anchor_chars="ACGTU" and anchor_minrun=8:
   // "THISISMYGBIFSEQUENCEACGTACGTACGTNNNNNENDOFSEQUENCE" -> "ACGTACGTACGT"
-  const tFirst = trimToFirstAnchorOrWipe(s2, config.anchor_chars, config.anchor_minrun);
-  const s3 = tFirst.s;
-  const tLast = trimToLastAnchor(s3, config.anchor_chars, config.anchor_minrun);
-  const s4 = tLast.s;
+  const tFirst = trimToFirstAnchorOrWipe(s3, config.anchor_chars, config.anchor_minrun);
+  const s4 = tFirst.s;
+  const tLast = trimToLastAnchor(s4, config.anchor_chars, config.anchor_minrun);
+  const s5 = tLast.s;
   const endsTrimmed = tFirst.did || tLast.did;
-
-  // Stage E: U -> T (RNA->DNA)
-  // example: "ACGTUACGTU" -> "ACGTTACGTT"
-  const s5 = s4.replace(/U/g, "T");
 
   // Stage F: cap N-runs (apply N-run cap to s5 -> s6)
   // example: with nrun_cap_from=6 and nrun_cap_to=5:

@@ -21,11 +21,11 @@ public class SequenceProcessorTest {
         System.out.println("\n--- Stage C: Gap Removal ---");
         testGapRemoval();
 
-        System.out.println("\n--- Stage D: Anchor Trimming ---");
-        testAnchorTrimming();
-
-        System.out.println("\n--- Stage E: U to T Conversion ---");
+        System.out.println("\n--- Stage D: U to T Conversion ---");
         testUtoTConversion();
+
+        System.out.println("\n--- Stage E: Anchor Trimming ---");
+        testAnchorTrimming();
 
         System.out.println("\n--- Stage F: N-run Capping ---");
         testNrunCapping();
@@ -145,11 +145,6 @@ public class SequenceProcessorTest {
             assertEqual(result.sequence(), "ACGTACGTACGT");
         });
 
-        test("removes question marks", () -> {
-            var result = processor.processOneSequence("ACGT?ACGT?ACGT");
-            assertEqual(result.sequence(), "ACGTACGTACGT");
-        });
-
         test("removes mixed gaps", () -> {
             var result = processor.processOneSequence("ACGT--.ACGT");
             assertEqual(result.sequence(), "ACGTACGT");
@@ -157,7 +152,23 @@ public class SequenceProcessorTest {
     }
 
     // =========================================================================
-    // Stage D: Anchor trimming
+    // Stage D: U to T conversion
+    // =========================================================================
+
+    private static void testUtoTConversion() {
+        test("converts U to T", () -> {
+            var result = processor.processOneSequence("ACGUACGUACGU");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
+        });
+
+        test("converts mixed U and T", () -> {
+            var result = processor.processOneSequence("ACGUACGTACGU");
+            assertEqual(result.sequence(), "ACGTACGTACGT");
+        });
+    }
+
+    // =========================================================================
+    // Stage E: Anchor trimming
     // =========================================================================
 
     private static void testAnchorTrimming() {
@@ -189,22 +200,6 @@ public class SequenceProcessorTest {
             var result = processor.processOneSequence("ACGTXXXXACGT");
             assertEqual(result.sequence(), "");
             assertEqual(result.endsTrimmed(), true);
-        });
-    }
-
-    // =========================================================================
-    // Stage E: U to T conversion
-    // =========================================================================
-
-    private static void testUtoTConversion() {
-        test("converts U to T", () -> {
-            var result = processor.processOneSequence("ACGUACGUACGU");
-            assertEqual(result.sequence(), "ACGTACGTACGT");
-        });
-
-        test("converts mixed U and T", () -> {
-            var result = processor.processOneSequence("ACGUACGTACGU");
-            assertEqual(result.sequence(), "ACGTACGTACGT");
         });
     }
 

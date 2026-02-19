@@ -32,7 +32,7 @@ PSEUDO_CODE_function_process_one_sequence.txt
 #   "anchor_chars"="ACGTU",
 #   "anchor_minrun": 8,
 #   "anchor_strict": "ACGTU",
-#   "gap_regex": "[-\\.?]",
+#   "gap_regex": "[-\\.]",
 #   "natural_language_regex": "UNMERGED",
 #   "iupac_rna": "ACGTURYSWKMBDHVN",
 #   "iupac_dna": "ACGTRYSWKMBDHVN",
@@ -57,18 +57,18 @@ PSEUDO_CODE_function_process_one_sequence.txt
     s2 = replace_regex(s1, config.gap_regex, "")
     gaps_or_whitespace_removed = raw_has_ws OR has_gaps
 
-    # Stage D: trim to anchors (front & back)
+    # Stage D: U -> T (RNA->DNA)
+    # example: "ACGTUACGTU" -> "ACGTTACGTT"
+    s3 = replace_all(s2, "U", "T")
+
+    # Stage E: trim to anchors (front & back)
     # example: with anchor_chars="ACGTU" and anchor_minrun=8:
     # "THISISMYGBIFSEQUENCEACGTACGTACGTNNNNNENDOFSEQUENCE" -> "ACGTACGTACGT"
-    t_first = trim_to_first_anchor_or_wipe(s2, config.anchor_chars, config.anchor_minrun)
-    s3 = t_first.s
-    t_last  = trim_to_last_anchor(s3, config.anchor_chars, config.anchor_minrun)
-    s4 = t_last.s
+    t_first = trim_to_first_anchor_or_wipe(s3, config.anchor_chars, config.anchor_minrun)
+    s4 = t_first.s
+    t_last  = trim_to_last_anchor(s4, config.anchor_chars, config.anchor_minrun)
+    s5 = t_last.s
     ends_trimmed = t_first.did OR t_last.did
-
-    # Stage E: U -> T (RNA->DNA)
-    # example: "ACGTUACGTU" -> "ACGTTACGTT"
-    s5 = replace_all(s4, "U", "T")
 
     # Stage F: cap N-runs (apply N-run cap to s5 -> s6)
     # example: with nrun_cap_from=6 and nrun_cap_to=5:
